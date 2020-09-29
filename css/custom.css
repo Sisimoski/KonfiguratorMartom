@@ -1,3 +1,7 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .navbar-martom {
     background-color: rgb(54, 74, 153);
 }
@@ -25,4 +29,42 @@
     line-height: 71px;
     height: 71px;
     padding-top: 0;
+}
+
+.dropdown-menu-martom {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    min-width: 142px;
+    background-color: rgb(195, 171, 132);
+}
+
+.nav-link {
+    width: 70px;
+}
+
+.nav-link:hover {
+    background-color: rgb(115, 129, 184);
+}
+
+.nav-link-usermenu {
+    background-color: rgb(195, 171, 132);
+    width: 70px;
+}
+
+.nav-link-usermenu:hover {
+    background-color: rgb(213, 196, 169);
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: rgb(213, 196, 169);
 }
