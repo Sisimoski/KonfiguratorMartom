@@ -1,5 +1,17 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
+
+    /* Show it is fixed to the top */
+    padding-top: 71px;
+}
+
+.text-martom-theme {
+    color: rgb(54, 74, 153);
+}
+
+.text-martom-theme h4 {
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .navbar-martom {
@@ -67,4 +79,14 @@ body {
 .dropdown-item:hover {
     color: white;
     background-color: rgb(213, 196, 169);
+}
+
+.kategoria-dropdown-btn {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(54, 74, 153);
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    color: white;
 }
