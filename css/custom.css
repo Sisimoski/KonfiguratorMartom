@@ -7,6 +7,13 @@ body {
 
 h4 {
     margin-bottom: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+hr {
+    background-color: rgb(241, 242, 244);
 }
 
 .text-martom-theme {
@@ -76,10 +83,6 @@ h4 {
     vertical-align: middle;
 }
 
-.colGridPadding {
-    padding: 0 1px 1px;
-}
-
 .navbar-brand,
 .navbar-nav li a {
     line-height: 71px;
@@ -133,4 +136,36 @@ h4 {
     text-align: center;
     padding: 0;
     color: white;
+}
+
+.colGridPadding {
+    padding: 0 1px 1px;
+}
+
+.searchKolekcjaItems {
+    width: 300px;
+    height: 30px;
+    max-width: calc(100% - 130px);
+    flex-wrap: nowrap;
+}
+
+.searchFormCustomHeight {
+    height: 30px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 0px;
+    border-width: 1px 0 0 1px;
+    background-color: rgb(241, 242, 244);
+}
+
+.searchBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    color: white;
+    background-color: rgb(195, 171, 132);
+    line-height: 2;
 }

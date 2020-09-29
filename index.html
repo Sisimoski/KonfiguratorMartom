@@ -54,7 +54,7 @@
                 <div class="col">
                     <div class="d-flex justify-content-between align-items-baseline">
                         <h4>Kategoria</h4>
-                        <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kategoriaitems" aria-expanded="false">
+                        <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kategoriaitems" aria-expanded="true">
                             <i class="fa fa-angle-down"></i>
                         </button>
                     </div>
@@ -90,8 +90,14 @@
             <div class="row pt-5">
                 <div class="col">
                     <div class="d-flex justify-content-between align-items-baseline">
-                        <h4>Kolekcja</h4>
-                        <button class="btn kategoria-dropdown-btn float-right">
+                        <h4 class="flex-grow-1">Kolekcja</h4>
+                        <div class="input-group searchKolekcjaItems">
+                            <input type="text" class="form-control searchFormCustomHeight" placeholder="Szukaj modelu..." aria-label="Szukaj" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn searchBtn" type="button" id="button-addon2"><i class='bx bx-x'></i></button>
+                            </div>
+                        </div>
+                        <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kolekcjaitems" aria-expanded="false">
                             <i class="fa fa-angle-down"></i>
                         </button>
                     </div>
@@ -99,49 +105,51 @@
                 </div>
             </div>
             <!-- Kategoria Items -->
-            <div class="row row-cols-1 row-cols-md-4 m-0">
-                <div class="col p-1">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="collapse" id="kolekcjaitems">
+                <div class="row row-cols-1 row-cols-md-4 m-0">
+                    <div class="col colGridPadding">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col p-1">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col colGridPadding">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col p-1">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <div class="col colGridPadding">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col p-1">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col colGridPadding">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col p-1">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col colGridPadding">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
