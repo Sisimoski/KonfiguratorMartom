@@ -90,3 +90,7 @@ body {
     padding: 0;
     color: white;
 }
+
+h4 {
+    margin-bottom: 0;
+}
