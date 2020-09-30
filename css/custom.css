@@ -83,14 +83,16 @@ hr.sectionDivider {
     background-color: rgb(241, 242, 244);
 }
 
-.btn-martom {
+.itemTile-sm {
     background-color: rgb(54, 74, 153);
     cursor: pointer;
     height: 50px;
     padding: 0;
     margin: 0;
     border-radius: 0;
+}
 
+.itemTile-sm.title {
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -99,22 +101,20 @@ hr.sectionDivider {
     vertical-align: middle;
 }
 
-.btn-martom:hover {
+.itemTile-sm.title:hover {
     color: #dedede;
 }
 
-.btn-martom-secondary:hover {
-    color: #3c3c3c;
-}
-
-.btn-martom-secondary {
+.itemTile-secondary-sm {
     background-color: rgb(241, 242, 244);
     cursor: pointer;
     height: 50px;
-    padding: 0px 2em;
+    padding: 0;
     margin: 0;
     border-radius: 0;
+}
 
+.itemTile-secondary-sm.title {
     color: rgb(54, 74, 153);
     font-size: 12px;
     font-weight: bold;
@@ -123,7 +123,11 @@ hr.sectionDivider {
     vertical-align: middle;
 }
 
-.kategoria-dropdown-btn {
+.itemTile-secondary-sm.title:hover {
+    color: #3c3c3c;
+}
+
+.section-dropdown-btn {
     width: 30px;
     height: 30px;
     background-color: rgb(54, 74, 153);
@@ -137,14 +141,14 @@ hr.sectionDivider {
     padding: 0 1px 1px;
 }
 
-.searchKolekcjaItems {
+.kolekcja-input-group {
     width: 300px;
     height: 30px;
     max-width: calc(100% - 130px);
     flex-wrap: nowrap;
 }
 
-.searchFormCustomHeight {
+.search-form {
     height: 30px;
     padding: 0px 10px;
     box-sizing: border-box;
@@ -154,7 +158,7 @@ hr.sectionDivider {
     background-color: rgb(241, 242, 244);
 }
 
-.searchBtn {
+.search-btn-close {
     width: 30px;
     height: 30px;
     border-radius: 0;
@@ -165,13 +169,13 @@ hr.sectionDivider {
     line-height: 2;
 }
 
-.itemTile {
+.itemTile-md {
     height: 200px;
     background-color: rgb(241, 242, 244);
     cursor: pointer;
 }
 
-.itemTile .topTile {
+.itemTile-md .topTile {
     height: 125px;
     display: flex;
     flex-direction: column;
@@ -179,7 +183,7 @@ hr.sectionDivider {
     align-items: center;
 }
 
-.itemTile .bottomTile {
+.itemTile-md .bottomTile {
     height: 75px;
     display: flex;
     flex-direction: column;
@@ -187,7 +191,7 @@ hr.sectionDivider {
     align-items: center;
 }
 
-.itemTile .icon {
+.itemTile-md .icon {
     margin-top: 40px;
     display: inline-block;
     color: rgb(160, 166, 195);
@@ -197,7 +201,7 @@ hr.sectionDivider {
     transition: unset;
 }
 
-.itemTile .title {
+.itemTile-md .title {
     margin: 0;
     padding: 0 20px;
     font-size: 12px;
