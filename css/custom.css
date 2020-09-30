@@ -1,83 +1,26 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 
-    /* Show it is fixed to the top */
+    /* Fixed navbar to the top */
     padding-top: 71px;
 }
 
-h4 {
-    margin-bottom: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-hr.sectionDivider {
-    margin: 0 0!important;
-    background-color: rgb(241, 242, 244);
-}
-
-.text-martom-theme h4 {
-    font-size: 24px;
-    text-transform: uppercase;
-}
-
-.navbar-martom {
+.bg-martom {
     background-color: rgb(54, 74, 153);
 }
 /* change the brand and text color */
-.navbar-martom .navbar-brand,
-.navbar-martom .navbar-text {
+.bg-martom .navbar-brand,
+.bg-martom .navbar-text {
     color: rgba(255,255,255,.8);
 }
 /* change the link color */
-.navbar-martom .navbar-nav .nav-link {
+.bg-martom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
 /* change the color of active or hovered links */
-.navbar-martom .nav-item.active .nav-link,
-.navbar-martom .nav-item:hover .nav-link {
+.bg-martom .nav-item.active .nav-link,
+.bg-martom .nav-item:hover .nav-link {
     color: #ffffff;
-}
-
-.btn-martom {
-    background-color: rgb(54, 74, 153);
-    cursor: pointer;
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
-
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-}
-
-.btn-martom:hover {
-    color: #dedede;
-}
-
-.btn-martom-secondary:hover {
-    color: #3c3c3c;
-}
-
-.btn-martom-secondary {
-    background-color: rgb(241, 242, 244);
-    cursor: pointer;
-    height: 50px;
-    padding: 0px 2em;
-    margin: 0;
-    border-radius: 0;
-
-    color: rgb(54, 74, 153);
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
 }
 
 .navbar-brand,
@@ -123,6 +66,61 @@ hr.sectionDivider {
 .dropdown-item:hover {
     color: white;
     background-color: rgb(213, 196, 169);
+}
+
+h2 {
+    color: rgb(54, 74, 153);
+    margin-bottom: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+hr.sectionDivider {
+    margin: 0 0!important;
+    background-color: rgb(241, 242, 244);
+}
+
+.btn-martom {
+    background-color: rgb(54, 74, 153);
+    cursor: pointer;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.btn-martom:hover {
+    color: #dedede;
+}
+
+.btn-martom-secondary:hover {
+    color: #3c3c3c;
+}
+
+.btn-martom-secondary {
+    background-color: rgb(241, 242, 244);
+    cursor: pointer;
+    height: 50px;
+    padding: 0px 2em;
+    margin: 0;
+    border-radius: 0;
+
+    color: rgb(54, 74, 153);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .kategoria-dropdown-btn {

@@ -24,7 +24,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand navbar-light navbar-martom fixed-top py-0 px-0">
+<nav class="navbar navbar-expand navbar-light bg-martom fixed-top py-0 px-0">
     <a class="navbar-brand pl-4 py-0 order-3 order-md-0" href="#">
         <img src="https://drzwimartom.pl/wp-content/themes/martom/img/martom_logo.svg" width="131px">
     </a>
@@ -46,133 +46,136 @@
     </ul>
 </nav>
 
-<div class="container">
-    <section id="kategoria">
-        <div class="row">
-            <div class="col">
-                <!-- Kategoria Headline -->
-                <div class="row pt-5">
+<main role="main">
+    <section id="konfigurator">
+        <div class="container">
+            <section id="kategoria">
+                <div class="row">
                     <div class="col">
-                        <div class="d-flex justify-content-between align-items-baseline">
-                            <h4>Kategoria</h4>
-                            <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kategoriaitems" aria-expanded="true">
-                                <i class="fa fa-angle-down"></i>
-                            </button>
+                        <!-- Kategoria Headline -->
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <h2>Kategoria</h2>
+                                    <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kategoriaitems" aria-expanded="true">
+                                        <i class="fa fa-angle-down"></i>
+                                    </button>
+                                </div>
+                                <hr class="sectionDivider">
+                            </div>
                         </div>
-                        <hr class="sectionDivider">
-                    </div>
-                </div>
-                <!-- Kategoria Items -->
-                <div class="collapse" id="kategoriaitems">
-                    <div class="row row-cols-1 row-cols-md-4 m-0">
-                        <div class="col colGridPadding">
-                            <button class="btn btn-martom btn-block" type="button">Do domu</button>
-                        </div>
-                        <div class="col colGridPadding">
-                            <button class="btn btn-martom-secondary btn-block" type="button">Do domu z doświetlami</button>
-                        </div>
-                        <div class="col colGridPadding">
-                            <button class="btn btn-martom-secondary btn-block" type="button">Do domu dwuskrzydłowe</button>
-                        </div>
-                        <div class="col colGridPadding">
-                            <button class="btn btn-martom-secondary btn-block" type="button">DO MIESZKANIA BEZPIECZNE, AKUSTYCZNE, PPOŻ</button>
-                        </div>
-                        <div class="col colGridPadding">
-                            <button class="btn btn-martom-secondary btn-block" type="button">DO POMIESZCZEŃ GOSPODARCZYCH</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="kolekcja">
-        <div class="row">
-            <div class="col">
-                <!-- Kolekcja Headline -->
-                <div class="row pt-5">
-                    <div class="col">
-                        <div class="d-flex justify-content-between align-items-baseline">
-                            <h4 class="flex-grow-1">Kolekcja</h4>
-                            <div class="input-group searchKolekcjaItems">
-                                <input type="text" class="form-control searchFormCustomHeight" placeholder="Szukaj modelu..." aria-label="Szukaj" aria-describedby="button-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn searchBtn" type="button" id="button-addon2"><i class='bx bx-x'></i></button>
+                        <!-- Kategoria Items -->
+                        <div class="collapse" id="kategoriaitems">
+                            <div class="row row-cols-1 row-cols-md-4 m-0">
+                                <div class="col colGridPadding">
+                                    <button class="btn btn-martom btn-block" type="button">Do domu</button>
+                                </div>
+                                <div class="col colGridPadding">
+                                    <button class="btn btn-martom-secondary btn-block" type="button">Do domu z doświetlami</button>
+                                </div>
+                                <div class="col colGridPadding">
+                                    <button class="btn btn-martom-secondary btn-block" type="button">Do domu dwuskrzydłowe</button>
+                                </div>
+                                <div class="col colGridPadding">
+                                    <button class="btn btn-martom-secondary btn-block" type="button">DO MIESZKANIA BEZPIECZNE, AKUSTYCZNE, PPOŻ</button>
+                                </div>
+                                <div class="col colGridPadding">
+                                    <button class="btn btn-martom-secondary btn-block" type="button">DO POMIESZCZEŃ GOSPODARCZYCH</button>
                                 </div>
                             </div>
-                            <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kolekcjaitems" aria-expanded="true">
-                                <i class="fa fa-angle-down"></i>
-                            </button>
                         </div>
-                        <hr class="sectionDivider">
                     </div>
                 </div>
-                <!-- Kolekcja Items -->
-                <div class="collapse" id="kolekcjaitems">
-                    <div class="row row-cols-1 row-cols-md-4 m-0">
-                        <div class="col colGridPadding">
-                            <div class="itemTile">
-                                <div class="topTile">
-                                    <div class="icon">
-                                        <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM39,14.258 L45,16.657 L45,64.835 L39,67.234 L39,14.258 ZM40,65.758 L44,64.157 L44,17.335 L40,15.734 L40,65.758 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>
+            </section>
+
+            <section id="kolekcja">
+                <div class="row">
+                    <div class="col">
+                        <!-- Kolekcja Headline -->
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <h2 class="flex-grow-1">Kolekcja</h2>
+                                    <div class="input-group searchKolekcjaItems">
+                                        <input type="text" class="form-control searchFormCustomHeight" placeholder="Szukaj modelu..." aria-label="Szukaj" aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn searchBtn" type="button" id="button-addon2"><i class='bx bx-x'></i></button>
+                                        </div>
+                                    </div>
+                                    <button class="btn kategoria-dropdown-btn float-right" type="button" data-toggle="collapse" data-target="#kolekcjaitems" aria-expanded="true">
+                                        <i class="fa fa-angle-down"></i>
+                                    </button>
+                                </div>
+                                <hr class="sectionDivider">
+                            </div>
+                        </div>
+                        <!-- Kolekcja Items -->
+                        <div class="collapse" id="kolekcjaitems">
+                            <div class="row row-cols-1 row-cols-md-4 m-0">
+                                <div class="col colGridPadding">
+                                    <div class="itemTile">
+                                        <div class="topTile">
+                                            <div class="icon">
+                                                <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM39,14.258 L45,16.657 L45,64.835 L39,67.234 L39,14.258 ZM40,65.758 L44,64.157 L44,17.335 L40,15.734 L40,65.758 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>
+                                            </div>
+                                        </div>
+                                        <div class="bottomTile">
+                                            <p class="title">Modern</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="bottomTile">
-                                    <p class="title">Modern</p>
+                                <div class="col colGridPadding">
+                                    <div class="itemTile">
+                                        <div class="topTile">
+                                            <div class="icon">
+                                                <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L42.77,77.868 L42.051,78.219 C42.021,78.157 41.9930000000001,78.079 41.963,78.015 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM42.564,76.889 L52,75.173 L52,75 L52,6.79300000000001 L42.713,4.767 C40.184,10.612 38.5,24.971 38.5,41 C38.5,56.716 40.1180000000001,70.833 42.564,76.889 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L41.556,77.072 C39.109,70.764 37.5,56.635 37.5,41 C37.5,25.025 39.183,10.645 41.7190000000001,4.55000000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM31,51 C29.346,51 28,49.654 28,48 C28,46.346 29.346,45 31,45 C32.654,45 34,46.346 34,48 C34,49.654 32.654,51 31,51 ZM31,46 C29.897,46 29,46.897 29,48 C29,49.102 29.897,50 31,50 C32.102,50 33,49.102 33,48 C33,46.897 32.102,46 31,46 ZM45.063,16.456 L45.5,15.677 L45.936,16.456 C48.067,20.262 49.5,30.406 49.5,41.7 C49.5,52.994 48.067,63.139 45.936,66.944 L45.5,67.724 L45.063,66.944 C42.933,63.139 41.5,52.994 41.5,41.7 C41.5,30.406 42.933,20.262 45.063,16.456 ZM45.5,65.56 C47.312,61.337 48.5,52.03 48.5,41.7 C48.5,31.37 47.312,22.063 45.5,17.84 C43.687,22.063 42.5,31.37 42.5,41.7 C42.5,52.03 43.687,61.337 45.5,65.56 Z "></path></svg>                                </div>
+                                        </div>
+                                        <div class="bottomTile">
+                                            <p class="title">Classic</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col colGridPadding">
-                            <div class="itemTile">
-                                <div class="topTile">
-                                    <div class="icon">
-                                        <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L42.77,77.868 L42.051,78.219 C42.021,78.157 41.9930000000001,78.079 41.963,78.015 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM42.564,76.889 L52,75.173 L52,75 L52,6.79300000000001 L42.713,4.767 C40.184,10.612 38.5,24.971 38.5,41 C38.5,56.716 40.1180000000001,70.833 42.564,76.889 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L41.556,77.072 C39.109,70.764 37.5,56.635 37.5,41 C37.5,25.025 39.183,10.645 41.7190000000001,4.55000000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM31,51 C29.346,51 28,49.654 28,48 C28,46.346 29.346,45 31,45 C32.654,45 34,46.346 34,48 C34,49.654 32.654,51 31,51 ZM31,46 C29.897,46 29,46.897 29,48 C29,49.102 29.897,50 31,50 C32.102,50 33,49.102 33,48 C33,46.897 32.102,46 31,46 ZM45.063,16.456 L45.5,15.677 L45.936,16.456 C48.067,20.262 49.5,30.406 49.5,41.7 C49.5,52.994 48.067,63.139 45.936,66.944 L45.5,67.724 L45.063,66.944 C42.933,63.139 41.5,52.994 41.5,41.7 C41.5,30.406 42.933,20.262 45.063,16.456 ZM45.5,65.56 C47.312,61.337 48.5,52.03 48.5,41.7 C48.5,31.37 47.312,22.063 45.5,17.84 C43.687,22.063 42.5,31.37 42.5,41.7 C42.5,52.03 43.687,61.337 45.5,65.56 Z "></path></svg>                                </div>
+                                <div class="col colGridPadding">
+                                    <div class="itemTile">
+                                        <div class="topTile">
+                                            <div class="icon">
+                                                <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.7070000000001,1 L15.7070000000001,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM41,49 L47,49 L47,69.41 L41,70.61 L41,49 ZM42,69.39 L46,68.59 L46,50 L42,50 L42,69.39 ZM41,23.39 L47,24.59 L47,47 L41,47 L41,23.39 ZM42,46 L46,46 L46,25.41 L42,24.61 L42,46 ZM33.011,18.304 C33.309,13.337 36.0999999999999,10 39.9570000000001,10 C43.932,10 46.819,15.792 46.924,20.99 L46.9359999999999,21.616 L32.9839999999999,18.736 L33.011,18.304 ZM45.8979999999999,20.381 C45.5889999999999,15.395 42.8520000000001,11 39.9570000000001,11 C36.771,11 34.432,13.768 34.0419999999999,17.934 L45.8979999999999,20.381 ZM34,48 C34,49.654 32.654,51 31,51 C29.346,51 28,49.654 28,48 C28,46.346 29.346,45 31,45 C32.654,45 34,46.346 34,48 ZM31,46 C29.8969999999999,46 29,46.897 29,48 C29,49.102 29.8969999999999,50 31,50 C32.1020000000001,50 33,49.102 33,48 C33,46.897 32.1020000000001,46 31,46 ZM33,44 L33,21.39 L39,22.59 L39,47 L35,47 L35,46 L38,46 L38,23.41 L34,22.61 L34,44 L33,44 ZM34,71.39 L38,70.59 L38,50 L35,50 L35,49 L39,49 L39,71.41 L33,72.61 L33,52 L34,52 L34,71.39 Z "></path></svg>                                </div>
+                                        </div>
+                                        <div class="bottomTile">
+                                            <p class="title">Traditional</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="bottomTile">
-                                    <p class="title">Classic</p>
+                                <div class="col colGridPadding">
+                                    <div class="itemTile">
+                                        <div class="topTile">
+                                            <div class="icon">
+                                                <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.387,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM35,14.355 L40,15.605 L40,65.887 L35,67.137 L35,14.355 ZM36,65.855 L39,65.105 L39,16.387 L36,15.637 L36,65.855 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>                                </div>
+                                        </div>
+                                        <div class="bottomTile">
+                                            <p class="title">Simple Elegance z pakietem szybowym</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col colGridPadding">
-                            <div class="itemTile">
-                                <div class="topTile">
-                                    <div class="icon">
-                                        <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.7070000000001,1 L15.7070000000001,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.3869999999999,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM41,49 L47,49 L47,69.41 L41,70.61 L41,49 ZM42,69.39 L46,68.59 L46,50 L42,50 L42,69.39 ZM41,23.39 L47,24.59 L47,47 L41,47 L41,23.39 ZM42,46 L46,46 L46,25.41 L42,24.61 L42,46 ZM33.011,18.304 C33.309,13.337 36.0999999999999,10 39.9570000000001,10 C43.932,10 46.819,15.792 46.924,20.99 L46.9359999999999,21.616 L32.9839999999999,18.736 L33.011,18.304 ZM45.8979999999999,20.381 C45.5889999999999,15.395 42.8520000000001,11 39.9570000000001,11 C36.771,11 34.432,13.768 34.0419999999999,17.934 L45.8979999999999,20.381 ZM34,48 C34,49.654 32.654,51 31,51 C29.346,51 28,49.654 28,48 C28,46.346 29.346,45 31,45 C32.654,45 34,46.346 34,48 ZM31,46 C29.8969999999999,46 29,46.897 29,48 C29,49.102 29.8969999999999,50 31,50 C32.1020000000001,50 33,49.102 33,48 C33,46.897 32.1020000000001,46 31,46 ZM33,44 L33,21.39 L39,22.59 L39,47 L35,47 L35,46 L38,46 L38,23.41 L34,22.61 L34,44 L33,44 ZM34,71.39 L38,70.59 L38,50 L35,50 L35,49 L39,49 L39,71.41 L33,72.61 L33,52 L34,52 L34,71.39 Z "></path></svg>                                </div>
-                                </div>
-                                <div class="bottomTile">
-                                    <p class="title">Traditional</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col colGridPadding">
-                            <div class="itemTile">
-                                <div class="topTile">
-                                    <div class="icon">
-                                        <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.387,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM35,14.355 L40,15.605 L40,65.887 L35,67.137 L35,14.355 ZM36,65.855 L39,65.105 L39,16.387 L36,15.637 L36,65.855 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>                                </div>
-                                </div>
-                                <div class="bottomTile">
-                                    <p class="title">Simple Elegance z pakietem szybowym</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col colGridPadding">
-                            <div class="itemTile">
-                                <div class="topTile">
-                                    <div class="icon">
-                                        <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.387,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM35,14.355 L40,15.605 L40,65.887 L35,67.137 L35,14.355 ZM36,65.855 L39,65.105 L39,16.387 L36,15.637 L36,65.855 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>                                </div>
-                                </div>
-                                <div class="bottomTile">
-                                    <p class="title">Simple Elegance z aplikacją nieprzezierną</p>
+                                <div class="col colGridPadding">
+                                    <div class="itemTile">
+                                        <div class="topTile">
+                                            <div class="icon">
+                                                <svg viewBox="0 0 68 81"><path d="M58,76 L57,76 L53.047,76 L26,80.918 L26,81 L25,81 L25,76 L16,76 L15,76 L11,76 L10,76 L0,76 L0,75 L10,75 L10,1 L10,0 L11,0 L25,0 L26,0 L57,0 L58,0 L58,1 L58,75 L68,75 L68,76 L58,76 ZM11,75 L15,75 L15,6 L15,5.70699999999999 L11,1.70699999999999 L11,75 ZM25,1 L11.707,1 L15.707,5 L25,5 L25,1 ZM25,6 L16,6 L16,75 L25,75 L25,6 ZM26,5 L26,6 L26,75 L26,76 L26,79.901 L52,75.173 L52,75 L52,6.79300000000001 L26,1.12099999999998 L26,5 ZM30.136,1 L52.387,5.85500000000002 L56.433,1 L30.136,1 ZM57,1.88099999999997 L53,6.68099999999998 L53,75 L57,75 L57,1.88099999999997 ZM35,14.355 L40,15.605 L40,65.887 L35,67.137 L35,14.355 ZM36,65.855 L39,65.105 L39,16.387 L36,15.637 L36,65.855 ZM29,12.065 L32,12.831 L32,68.295 L29,69.54 L29,12.065 ZM30,68.042 L31,67.627 L31,13.608 L30,13.352 L30,68.042 Z "></path></svg>                                </div>
+                                        </div>
+                                        <div class="bottomTile">
+                                            <p class="title">Simple Elegance z aplikacją nieprzezierną</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
-
-</div>
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
