@@ -12,12 +12,9 @@ h4 {
     white-space: nowrap;
 }
 
-hr {
+hr.sectionDivider {
+    margin: 0 0!important;
     background-color: rgb(241, 242, 244);
-}
-
-.text-martom-theme {
-    color: rgb(54, 74, 153);
 }
 
 .text-martom-theme h4 {
