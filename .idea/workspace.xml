@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +57,7 @@
       <workItem from="1601569306689" duration="2159000" />
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
-      <workItem from="1601636796807" duration="821000" />
+      <workItem from="1601636796807" duration="2341000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601636986250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="navbar fixes">
+      <created>1601637711629</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601637711629</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,10 +144,10 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="192" y="111" width="1536" height="791" key="DiffContextDialog/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601499060968" />
-    <state x="160" y="29" key="SettingsEditor" timestamp="1601636912767">
+    <state x="160" y="29" key="SettingsEditor" timestamp="1601639965749">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601636912767" />
+    <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601639965749" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
     <state x="373" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601634578748">
       <screen x="0" y="23" width="1280" height="729" />
