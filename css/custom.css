@@ -79,8 +79,9 @@ h2 {
 }
 
 hr.sectionDivider {
-    margin: 0 0!important;
+    margin: 0 0 -1px;
     background-color: rgb(241, 242, 244);
+    z-index: 2;
 }
 
 .itemTile-sm {
@@ -138,7 +139,7 @@ hr.sectionDivider {
 }
 
 .colGridPadding {
-    padding: 0 1px 1px;
+    padding: 1px
 }
 
 .kolekcja-input-group {
@@ -209,4 +210,108 @@ hr.sectionDivider {
     text-align: center;
     text-transform: uppercase;
     color: rgb(54, 74, 153);
+}
+
+.itemTile-lg {
+    cursor: pointer;
+    border: 1px solid rgb(204, 208, 226);
+}
+
+.itemTile-lg .topTile {
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 208, 226);
+}
+
+.itemTile-lg .icon {
+    max-width: 155px;
+    max-height: 213px;
+    width: 155px;
+    height: 213px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.itemTile-lg .iconcontainer {
+    padding-top: 30px;
+}
+
+.itemTile-lg .icon img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.itemTile-lg .title {
+    margin-top: 30px;
+    color: rgb(73, 73, 72);
+    font-size: 14px;
+}
+
+.itemTile-lg .bottomTile {
+    background-color: rgb(241, 242, 244);
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomTile .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottomTile .titleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomTile .priceDescription {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottomTile p.titleLabel {
+    margin: 0;
+    padding-left: 8px;
+    font-size: 14px;
+    color: rgb(160, 166, 195);
+}
+
+.bottomTile p.priceLabel{
+    color: rgb(73, 73, 72);
+    font-size: 18px;
+}
+
+.info-popup-btn {
+    height: 17px; width: 17px;
+    max-height: 17px; max-width: 17px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(204, 208, 226);
+    background-color: rgb(241, 242, 244);
+    border-radius: 50%;
+    box-sizing: content-box;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.info-popup-btn svg {
+    color: rgb(54, 74, 153);
+    fill: currentcolor;
+    height: 17px; width: 1px;
+    user-select: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"
 }
