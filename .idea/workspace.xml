@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="css refactoring">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="model item added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +56,8 @@
       <workItem from="1601498738889" duration="3152000" />
       <workItem from="1601569306689" duration="2159000" />
       <workItem from="1601619503516" duration="345000" />
-      <workItem from="1601621669818" duration="11049000" />
+      <workItem from="1601621669818" duration="13258000" />
+      <workItem from="1601636796807" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601501624815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="model item added">
+      <created>1601634573319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601634573319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +117,8 @@
     <MESSAGE value="added some .idea project files" />
     <MESSAGE value="text centered" />
     <MESSAGE value="css refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="css refactoring" />
+    <MESSAGE value="model item added" />
+    <option name="LAST_COMMIT_MESSAGE" value="model item added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
@@ -120,14 +129,15 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="192" y="111" width="1536" height="791" key="DiffContextDialog/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601499060968" />
-    <state x="160" y="29" key="SettingsEditor" timestamp="1601632426398">
+    <state x="160" y="29" key="SettingsEditor" timestamp="1601636912767">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601632426398" />
+    <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601636912767" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601501630064">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="373" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601634578748">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
+    <state x="373" y="195" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601634578748" />
     <state x="560" y="257" key="Vcs.Push.Dialog.v2/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601501630064" />
   </component>
 </project>
