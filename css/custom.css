@@ -440,3 +440,11 @@ hr.sectionDivider {
 .forward-btn:hover {
     background-color: rgb(115, 184, 138);
 }
+
+.section-dropdown-btn[aria-expanded=false] .dropdown-collapsed{
+    display: none;
+}
+
+.section-dropdown-btn[aria-expanded=true] .dropdown-expanded{
+    display: none;
+}

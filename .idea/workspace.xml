@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="konfigurator index.html completed">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="information modal added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -64,7 +64,7 @@
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
       <workItem from="1601636796807" duration="6018000" />
-      <workItem from="1601879236201" duration="8949000" />
+      <workItem from="1601879236201" duration="10413000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601886616686</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="information modal added">
+      <created>1601893863675</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601893863675</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="added transitions" />
     <MESSAGE value="konfigurator index.html completed" />
     <MESSAGE value="added more model items" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more model items" />
+    <MESSAGE value="information modal added" />
+    <option name="LAST_COMMIT_MESSAGE" value="information modal added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
@@ -181,9 +189,10 @@
     <state x="160" y="29" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1601647626934" />
     <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601643247990" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
-    <state x="373" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601640148444">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state x="373" y="189" key="Vcs.Push.Dialog.v2" timestamp="1601893871395">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="373" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1601893871395" />
     <state x="373" y="195" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601640148444" />
     <state x="560" y="257" key="Vcs.Push.Dialog.v2/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601501630064" />
   </component>
