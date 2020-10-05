@@ -45,6 +45,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +64,7 @@
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
       <workItem from="1601636796807" duration="6018000" />
-      <workItem from="1601879236201" duration="2271000" />
+      <workItem from="1601879236201" duration="8949000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601643611295</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added more model items">
+      <created>1601886616686</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601886616686</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +163,8 @@
     <MESSAGE value="navbar fixes" />
     <MESSAGE value="added transitions" />
     <MESSAGE value="konfigurator index.html completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="konfigurator index.html completed" />
+    <MESSAGE value="added more model items" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more model items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
@@ -68,19 +68,19 @@
                         <div class="collapse" id="kategoriaitems">
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 m-0">
                                 <div class="col colGridPadding">
-                                    <button class="btn itemTile-sm title btn-block" type="button">Do domu</button>
+                                    <button class="btn itemTile-sm title btn-block" type="button" data-toggle="modal" data-target="#informacjaModal">Do domu</button>
                                 </div>
                                 <div class="col colGridPadding">
-                                    <button class="btn itemTile-secondary-sm title btn-block" type="button">Do domu z doświetlami</button>
+                                    <button class="btn itemTile-secondary-sm title btn-block" type="button" data-toggle="modal" data-target="#informacjaModal">Do domu z doświetlami</button>
                                 </div>
                                 <div class="col colGridPadding">
-                                    <button class="btn itemTile-secondary-sm title btn-block" type="button">Do domu dwuskrzydłowe</button>
+                                    <button class="btn itemTile-secondary-sm title btn-block" type="button" data-toggle="modal" data-target="#informacjaModal">Do domu dwuskrzydłowe</button>
                                 </div>
                                 <div class="col colGridPadding">
-                                    <button class="btn itemTile-secondary-sm title btn-block" type="button">DO MIESZKANIA BEZPIECZNE, AKUSTYCZNE, PPOŻ</button>
+                                    <button class="btn itemTile-secondary-sm title btn-block" type="button" data-toggle="modal" data-target="#informacjaModal">DO MIESZKANIA BEZPIECZNE, AKUSTYCZNE, PPOŻ</button>
                                 </div>
                                 <div class="col colGridPadding">
-                                    <button class="btn itemTile-secondary-sm title btn-block" type="button">DO POMIESZCZEŃ GOSPODARCZYCH</button>
+                                    <button class="btn itemTile-secondary-sm title btn-block" type="button" data-toggle="modal" data-target="#informacjaModal">DO POMIESZCZEŃ GOSPODARCZYCH</button>
                                 </div>
                             </div>
                         </div>
@@ -469,35 +469,54 @@
                     </div>
                 </div>
             </section>
-            <div class="row">
-                <div class="col">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                        Launch demo modal
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
+            <section id="informacja">
+                <!-- Modal -->
+                <div class="modal fade" id="informacjaModal" tabindex="-1" role="dialog" aria-labelledby="informacjaModalCenter" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="d-flex align-items-center border-bottom">
+                                    <h3 class="flex-grow-1">Informacja</h3>
+                                    <button class="btn forward-btn" type="button" data-dismiss="modal" aria-label="Close">
+                                        <svg viewBox="0 0 7 12" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 50px; width: 7px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
                                     </button>
                                 </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                <div style="padding-top: 30px;">
+                                    <h4>01</h4>
+                                    <p>Podawane ceny są cenami netto. Należy doliczyć podatek VAT w obowiązującej wysokości.</p>
+
+                                    <h4>02</h4>
+                                    <p>Podane ceny są cenami sugerowanymi przez producenta i nie ustalają cen od sprzedaży w poszczególnych punktach dystrybucji.</p>
+
+                                    <h4>03</h4>
+                                    <p>Wizualizacje modeli przedstawione w konfiguratorze należy traktować jako poglądowe. Wzory, kolory i inne szczegóły mogą odbiegać od rzeczywistych. Należy brać pod uwagę fakt, że wyświetlacze urządzeń elektronicznych mogą zniekształcić rzeczywiste kolory.</p>
+
+                                    <h4>04</h4>
+                                    <p>Wizualizacje drzwi w konfiguratorze mają przybliżone proporcje drzwi o standardowym rozmiarze 90 (wymiary skrzydła: wysokość 2037mm x szerokość 950mm). Zmieniając rzeczywiste wymiary drzwi w konfiguratorze proporcje wizualizacji nie ulegają zmianie, natomiast proporcje drzwi i aplikacji rzeczywistych będą się różnić.</p>
+
+                                    <h4>05</h4>
+                                    <p>Producent zastrzega sobie prawo do zmian i ulepszeń produktów zawartych w niniejszym katalogu bez uprzedniego powiadomienia oraz zastrzega sobie prawo do błędów w prezentacji i wycenach modeli umieszczonych w konfiguratorze.</p>
+
+                                    <h4>06</h4>
+                                    <p>Publikacja ta nie stanowi oferty w rozumieniu prawa i jest drukowana jedynie do celów informacyjnych, bez żadnej odpowiedzialności.</p>
+
+                                    <h4>07</h4>
+                                    <p>Administratorem przekazywanych przez Państwa danych jest Przedsiębiorstwo Wielobranżowe MARTOM Sp. z o. o. z siedzibą w Jędrzejowie, ul. Jasionka 90, 28-300 Jędrzejów.</p>
+
+                                    <h4>08</h4>
+                                    <p>Przekazanie przez Państwa danych wskazanych w formularzu jest dobrowolne – mogą Państwo uzupełnić wszystkie pola formularza, niektóre z nich lub też wypełnić formularz w jakikolwiek sposób pozwalający zidentyfikować Państwa celem realizacji zamówienia.</p>
+
+                                    <h4>09</h4>
+                                    <p>Posiadane przez nas dane przetwarzane są w zakresie koniecznym do zrealizowania złożonego przez Państwa zamówienia, w tym do umieszczenia w module sprzedaży w naszym systemie.</p>
+
+                                    <h4>10</h4>
+                                    <p>Mają Państwo prawo żądać od nas dostępu do Państwa danych osobowych, ich sprostowania, usunięcia, lub ograniczenia przetwarzania, a także do ich przeniesienia do innego podmiotu. Mają również Państwo prawo do wniesienia skargi do organu nadzorczego – Prezesa Urzędu Ochrony Danych Osobowych. Ponadto w każdej chwili mogą Państwo wycofać wyrażoną zgodę – w tym celu prosimy o kontakt listowy na adres siedziby Spółki lub na maila biuro@mar-tom.com.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
 </main>

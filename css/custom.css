@@ -382,11 +382,61 @@ hr.sectionDivider {
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"
 }
 
+.modal {
+    padding-top: 5rem;
+}
+
+.modal-content {
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-body {
+    border: 1px solid rgb(204, 208, 226);
+    padding: 50px 30px;
+}
+
 .modal-dialog {
+    max-height: calc(100% - 2rem);
+    margin: 0px auto;
     width: 75%;
     max-width: 768px;
-    color: rgb(160, 166, 195);
-    background-color: rgb(255, 255, 255);
     border-radius: 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px;
+}
+
+.modal-dialog h3 {
+    color: rgb(73, 73, 72);
+    font-size: 24px;
+    margin: 0;
+}
+
+.modal-dialog h4 {
+    color: rgb(54, 74, 153);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.modal-dialog p {
+    color: rgb(73, 73, 72);
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.forward-btn {
+    height: 50px; width: 50px;
+    padding: 0;
+    border-radius: 0;
+    overflow: visible;
+    cursor: pointer;
+    background-color: rgb(54, 153, 87);
+    color: white;
+    text-align: center;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.forward-btn:hover {
+    background-color: rgb(115, 184, 138);
 }
