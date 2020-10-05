@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="added transitions">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="konfigurator index.html completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +57,8 @@
       <workItem from="1601569306689" duration="2159000" />
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
-      <workItem from="1601636796807" duration="4471000" />
+      <workItem from="1601636796807" duration="6018000" />
+      <workItem from="1601879236201" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601640145520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="konfigurator index.html completed">
+      <created>1601643611295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601643611295</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +149,8 @@
     <MESSAGE value="model item added" />
     <MESSAGE value="navbar fixes" />
     <MESSAGE value="added transitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transitions" />
+    <MESSAGE value="konfigurator index.html completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="konfigurator index.html completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
@@ -152,9 +161,10 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="192" y="111" width="1536" height="791" key="DiffContextDialog/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601499060968" />
-    <state x="160" y="29" key="SettingsEditor" timestamp="1601643247990">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state x="160" y="29" key="SettingsEditor" timestamp="1601647626934">
+      <screen x="0" y="23" width="1280" height="728" />
     </state>
+    <state x="160" y="29" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1601647626934" />
     <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601643247990" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
     <state x="373" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601640148444">
