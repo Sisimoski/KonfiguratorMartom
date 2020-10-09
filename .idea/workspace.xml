@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="dropdown icons updated to reflect if it is collapsed or expanded">
-      <change afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="css refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ustawienia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,7 +76,7 @@
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
       <workItem from="1601636796807" duration="6018000" />
-      <workItem from="1601879236201" duration="27788000" />
+      <workItem from="1601879236201" duration="38102000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -161,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601895845921</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="settings page added">
+      <created>1602238181159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602238181159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="css refactoring">
+      <created>1602247847923</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247847923</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +198,6 @@
     <MESSAGE value="deleted .gitignore" />
     <MESSAGE value="added some .idea project files" />
     <MESSAGE value="text centered" />
-    <MESSAGE value="css refactoring" />
     <MESSAGE value="model item added" />
     <MESSAGE value="navbar fixes" />
     <MESSAGE value="added transitions" />
@@ -191,13 +205,19 @@
     <MESSAGE value="added more model items" />
     <MESSAGE value="information modal added" />
     <MESSAGE value="dropdown icons updated to reflect if it is collapsed or expanded" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown icons updated to reflect if it is collapsed or expanded" />
+    <MESSAGE value="settings page added" />
+    <MESSAGE value="css refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="css refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="778" y="245" key="#Menus_and_Toolbars/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601499307931" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602238949423">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/394.-1080.1920.1080@0.0.1280.800" timestamp="1602238949423" />
     <state x="192" y="111" width="1536" height="791" key="DiffContextDialog" timestamp="1601499060968">
       <screen x="0" y="23" width="1920" height="989" />
     </state>

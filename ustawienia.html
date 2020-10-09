@@ -26,11 +26,14 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand navbar-light bg-martom fixed-top py-0 px-0">
+<nav class="navbar navbar-expand navbar-light primaryBgColor fixed-top py-0 px-0">
     <a class="navbar-brand d-flex align-items-center pl-4 py-0 order-3 order-md-0" href="#">
         <img src="https://drzwimartom.pl/wp-content/themes/martom/img/martom_logo.svg" width="131px">
     </a>
     <ul class="navbar-nav ml-md-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Ustawienia</a>
+        </li>
         <span class="border-left border-white order-2 order-md-1"></span>
         <li class="nav-item order-1 order-md-2">
             <a class="nav-link text-center" href="#">
@@ -69,13 +72,16 @@
                                 <div class="col">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <button style="border: 10px; box-sizing: content-box; display: inline-block; font-family: &quot;Nunito Sans&quot;; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: absolute; height: 30px; line-height: 36px; min-width: 30px; color: rgb(160, 166, 195); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; overflow: visible; background-color: rgb(54, 74, 153); text-align: center; width: 30px; max-width: 30px; min-height: 30px; max-height: 30px; top: -1px; right: -1px;" tabindex="0" type=""><svg style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 30px; width: 12px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg></button>
+                                            <button class="squareBtn-sm primaryBgColor" type="button" data-toggle="collapse" data-target="#summarywindow" aria-expanded="true" style="position: absolute; top: -1px; right: -1px;">
+                                                <svg class="arrowUpIcon" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg>
+                                            </button>
+<!--                                            <button style="border: 10px; box-sizing: content-box; display: inline-block; font-family: &quot;Nunito Sans&quot;; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: absolute; height: 30px; line-height: 36px; min-width: 30px; color: rgb(160, 166, 195); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; overflow: visible; background-color: rgb(54, 74, 153); text-align: center; width: 30px; max-width: 30px; min-height: 30px; max-height: 30px; top: -1px; right: -1px;" tabindex="0" type=""><svg style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 30px; width: 12px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg></button>-->
                                             <p class="title">G 00</p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <div class="row md-DetailRow secondaryBg">
+                                            <div class="row md-DetailRow lightBgColor">
                                                 <p class="text-left text-uppercase textMuted">Razem</p>
                                                 <p class="text-right text-uppercase">1199,00</p>
                                             </div>
@@ -83,7 +89,7 @@
                                                 <p class="text-left textMuted">Standard</p>
                                                 <p class="text-right textMuted">PLN</p>
                                             </div>
-                                            <div class="row sm-DetailRow secondaryBg">
+                                            <div class="row sm-DetailRow lightBgColor">
                                                 <p class="text-left text-uppercase">Optimal</p>
                                                 <p class="text-right text-uppercase">1059,00</p>
                                             </div>
@@ -91,7 +97,7 @@
                                                 <p class="text-left textMuted">Akcesoria</p>
 
                                             </div>
-                                            <div class="row sm-DetailRow secondaryBg">
+                                            <div class="row sm-DetailRow lightBgColor">
                                                 <p class="text-left">Klamka Riva inox</p>
                                                 <p class="text-right">140,00</p>
                                             </div>
@@ -106,8 +112,11 @@
                                 <div class="col" style="padding: 0 15px">
                                     <div class="d-flex align-items-center border-bottom">
                                         <h3 class="flex-grow-1">Strona i kierunek otwierania</h3>
-                                        <button class="btn forward-btn" type="button">
-                                            <svg viewBox="0 0 7 12" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 50px; width: 7px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                        <button class="btn squareBtn-md successBgColor" type="button">
+                                            <svg viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                        </button>
+                                        <button class="btn squareBtn-sm primaryBgColor" type="button">
+                                            <svg viewBox="0 0 12 14" ><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>
                                         </button>
                                     </div>
                                 </div>
