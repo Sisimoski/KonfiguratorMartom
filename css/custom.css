@@ -448,3 +448,128 @@ hr.sectionDivider {
 .section-dropdown-btn[aria-expanded=true] .dropdown-expanded{
     display: none;
 }
+
+.section-dropdown-btn[aria-expanded=false]{
+    background-color: rgb(115, 129, 184);
+}
+
+.section-dropdown-btn[aria-expanded=true]{
+    background-color: rgb(54, 74, 153);
+}
+
+.summaryPreview {
+    padding-left: 0;
+}
+
+.summaryPreview .topPreview {
+    padding: 50px 0;
+    border-width: 1px 1px 0;
+    border-color: rgb(204, 208, 226);
+}
+
+.summaryPreview .topPreview .icon {
+    max-width: 225px;
+    max-height: 306px;
+    width: 225px;
+    height: 306px;
+}
+
+.summaryPreview .icon img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.summaryPreview .bottomPreview {
+
+}
+
+.summaryPreview .bottomPreview .title {
+    font-size: 18px;
+    line-height: 50px;
+    color: rgb(73, 73, 72);
+}
+
+.summaryPreview .bottomPreview p {
+    margin: 0;
+    color: rgb(73, 73, 72);
+}
+
+.summaryPreview .bottomPreview p.textMuted {
+    color: rgb(160, 166, 195);
+}
+
+.settings {
+    padding: 0;
+}
+
+.settings h3 {
+    color: rgb(73, 73, 72);
+    font-size: 24px;
+    margin: 0;
+}
+
+.settingsTile {
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.settingsTile .topTile {
+    background-color: rgb(241, 242, 244);
+    padding: 50px;
+}
+
+.settingsTile .topTile span {
+    color: rgb(54, 74, 153);
+    text-transform: uppercase;
+}
+
+.settingsTile .topTile svg {
+    color: rgb(160, 166, 195);
+    fill: rgb(54, 74, 153);
+    height: 123px; width: 246px;
+}
+
+.settingsTile .bottomTile {
+    height: 30px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(241, 242, 244);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(241, 242, 244);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 208, 226);
+    font-size: 14px;
+    color: rgb(73, 73, 72);
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+.secondaryBg {
+    background-color: rgb(241, 242, 244);
+}
+
+.md-DetailRow {
+    padding: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm-DetailRow {
+    padding: 10px 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
