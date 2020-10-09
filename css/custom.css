@@ -6,21 +6,18 @@ body {
     padding-bottom: 50px;
 }
 
-.bg-martom {
-    background-color: rgb(54, 74, 153);
-}
 /* change the brand and text color */
-.bg-martom .navbar-brand,
-.bg-martom .navbar-text {
+.primaryBgColor .navbar-brand,
+.primaryBgColor .navbar-text {
     color: rgba(255,255,255,.8);
 }
 /* change the link color */
-.bg-martom .navbar-nav .nav-link {
+.primaryBgColor .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
 /* change the color of active or hovered links */
-.bg-martom .nav-item.active .nav-link,
-.bg-martom .nav-item:hover .nav-link {
+.primaryBgColor .nav-item.active .nav-link,
+.primaryBgColor .nav-item:hover .nav-link {
     color: #ffffff;
 }
 
@@ -101,101 +98,12 @@ body {
 }
 
 h2 {
-    color: rgb(54, 74, 153);
     margin-bottom: 0;
     font-size: 24px;
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-}
-
-hr.sectionDivider {
-    margin: 0 0 -1px;
-    background-color: rgb(241, 242, 244);
-    z-index: 2;
-}
-
-.itemTile-sm {
-    background-color: rgb(54, 74, 153);
-    cursor: pointer;
-    height: 50px;
-    padding: 0 20px;
-    margin: 0;
-    border-radius: 0;
-}
-
-.itemTile-sm.title {
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-}
-
-.itemTile-sm.title:hover {
-    color: #dedede;
-}
-
-.itemTile-secondary-sm {
-    background-color: rgb(241, 242, 244);
-    cursor: pointer;
-    height: 50px;
-    padding: 0 20px;
-    margin: 0;
-    border-radius: 0;
-}
-
-.itemTile-secondary-sm.title {
-    color: rgb(54, 74, 153);
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-}
-
-.itemTile-secondary-sm.title:hover {
-    color: #3c3c3c;
-}
-
-.squarebtn-xs {
-    width: 30px;
-    height: 30px;
-    background-color: rgb(54, 74, 153);
-    border-radius: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    border: 5px;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
-}
-
-.squarebtn-xs:hover {
-    background-color: rgb(115, 129, 184);
-}
-
-.squarebtn-xs svg {
-    color: rgb(255, 255, 255);
-    fill: currentColor;
-    height: 30px; width: 12px;
-}
-
-.section-dropdown-btn {
-    width: 30px;
-    height: 30px;
-    background-color: rgb(54, 74, 153);
-    border-radius: 0;
-    text-align: center;
-    padding: 0;
-    color: white;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-}
-
-.section-dropdown-btn:hover {
-    color: white;
-    background-color: rgb(115, 129, 184);
 }
 
 .colGridPadding {
@@ -211,251 +119,15 @@ hr.sectionDivider {
 
 .search-form {
     height: 30px;
-    padding: 0px 10px;
+    padding: 0 10px;
     box-sizing: border-box;
     font-size: 14px;
-    border-radius: 0px;
+    border-radius: 0;
     border-width: 1px 0 0 1px;
     background-color: rgb(241, 242, 244);
 }
 
-.search-btn-close {
-    width: 30px;
-    height: 30px;
-    border-radius: 0;
-    text-align: center;
-    padding: 0;
-    color: white;
-    background-color: rgb(195, 171, 132);
-    line-height: 2;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-}
-
-.search-btn-close:hover {
-    color: white;
-    background-color: rgb(213, 196, 169);
-}
-
-.itemTile-md {
-    height: 200px;
-    background-color: rgb(241, 242, 244);
-    cursor: pointer;
-}
-
-.itemTile-md .topTile {
-    height: 125px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.itemTile-md .bottomTile {
-    height: 75px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.itemTile-md .icon {
-    margin-top: 40px;
-    display: inline-block;
-    color: rgb(160, 166, 195);
-    fill: rgb(54, 74, 153);
-    height: 81px; width: 68px;
-    user-select: none;
-    transition: unset;
-}
-
-.itemTile-md .title {
-    margin: 0;
-    padding: 0 20px;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(54, 74, 153);
-}
-
-.itemTile-lg {
-    cursor: pointer;
-    border: 1px solid rgb(204, 208, 226);
-}
-
-.itemTile-lg .topTile {
-    height: 325px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(204, 208, 226);
-}
-
-.itemTile-lg .icon {
-    max-width: 155px;
-    max-height: 213px;
-    width: 155px;
-    height: 213px;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.itemTile-lg .iconcontainer {
-    padding-top: 30px;
-}
-
-.itemTile-lg .icon img {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-}
-
-.itemTile-lg .title {
-    margin-top: 30px;
-    color: rgb(73, 73, 72);
-    font-size: 14px;
-}
-
-.itemTile-lg .bottomTile {
-    background-color: rgb(241, 242, 244);
-    height: 94px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bottomTile .buttonContainer {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.bottomTile .titleContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bottomTile .priceDescription {
-    width: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.bottomTile p.titleLabel {
-    margin: 0;
-    padding-left: 8px;
-    font-size: 14px;
-    color: rgb(160, 166, 195);
-}
-
-.bottomTile p.priceLabel{
-    color: rgb(73, 73, 72);
-    font-size: 18px;
-}
-
-.info-popup-btn {
-    height: 17px; width: 17px;
-    max-height: 17px; max-width: 17px;
-    padding: 0;
-    margin: 0;
-    border: 1px solid rgb(204, 208, 226);
-    background-color: rgb(241, 242, 244);
-    border-radius: 50%;
-    box-sizing: content-box;
-    cursor: pointer;
-    line-height: 0;
-}
-
-.info-popup-btn svg {
-    color: rgb(54, 74, 153);
-    fill: currentcolor;
-    height: 17px; width: 1px;
-    user-select: none;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"
-}
-
-.modal {
-    padding-top: 5rem;
-}
-
-.modal-content {
-    background-clip: border-box;
-    border: none;
-    border-radius: 0;
-}
-
-.modal-body {
-    border: 1px solid rgb(204, 208, 226);
-    padding: 50px 30px;
-}
-
-.modal-dialog {
-    max-height: calc(100% - 2rem);
-    margin: 0px auto;
-    width: 75%;
-    max-width: 768px;
-    border-radius: 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px;
-}
-
-.modal-dialog h3 {
-    color: rgb(73, 73, 72);
-    font-size: 24px;
-    margin: 0;
-}
-
-.modal-dialog h4 {
-    color: rgb(54, 74, 153);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 14px;
-}
-
-.modal-dialog p {
-    color: rgb(73, 73, 72);
-    margin-top: 0;
-    font-size: 14px;
-}
-
-.forward-btn {
-    height: 50px; width: 50px;
-    padding: 0;
-    border-radius: 0;
-    overflow: visible;
-    cursor: pointer;
-    background-color: rgb(54, 153, 87);
-    color: white;
-    text-align: center;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-}
-
-.forward-btn:hover {
-    background-color: rgb(115, 184, 138);
-}
-
-.section-dropdown-btn[aria-expanded=false] .dropdown-collapsed{
-    display: none;
-}
-
-.section-dropdown-btn[aria-expanded=true] .dropdown-expanded{
-    display: none;
-}
-
-.section-dropdown-btn[aria-expanded=false]{
-    background-color: rgb(115, 129, 184);
-}
-
-.section-dropdown-btn[aria-expanded=true]{
-    background-color: rgb(54, 74, 153);
-}
+/* Początek ustawienia.html */
 
 .summaryPreview {
     padding-left: 0;
@@ -545,19 +217,8 @@ hr.sectionDivider {
     font-size: 14px;
     color: rgb(73, 73, 72);
     line-height: 30px;
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-
-
-
-
-
-.secondaryBg {
-    background-color: rgb(241, 242, 244);
+    padding: 0;
+    margin: 0;
 }
 
 .md-DetailRow {
@@ -573,3 +234,313 @@ hr.sectionDivider {
     display: flex;
     justify-content: space-between;
 }
+
+/* Koniec ustawienia.html */
+
+/* Buttons */
+.squareBtn-sm {
+    height: 30px; width: 30px;
+    margin: 0;
+    padding: 0;
+    border: 10px;
+    border-radius: 0;
+    box-sizing: content-box;
+    line-height: 0;
+    overflow: visible;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
+}
+
+.squareBtn-sm svg {
+    max-height: 14px; max-width: 100%;
+    color: rgb(255, 255, 255);
+    fill: currentColor;
+}
+
+.squareBtn-sm i {
+    color: white;
+}
+
+.squareBtn-md {
+    height: 50px; width: 50px;
+    padding: 0;
+    border-radius: 0;
+    overflow: visible;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.squareBtn-md svg {
+    padding: 18px 0;
+    max-height: 100%; max-width: 100%;
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+}
+
+.squareBtn-sm[aria-expanded=false] .dropdown-collapsed{
+    display: none;
+}
+
+.squareBtn-sm[aria-expanded=true] .dropdown-expanded{
+    display: none;
+}
+
+.squareBtn-sm[aria-expanded=false]{
+    background-color: rgb(115, 129, 184);
+}
+
+.squareBtn-sm[aria-expanded=true]{
+    background-color: rgb(54, 74, 153);
+}
+
+.itemTile-sm {
+    cursor: pointer;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.itemTile-sm.title {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.itemTile-sm.title:hover {
+    color: rgb(54, 74, 153);
+}
+
+.itemTile-md {
+    height: 200px;
+    cursor: pointer;
+}
+
+.itemTile-md .topTile {
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemTile-md .bottomTile {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemTile-md .icon {
+    margin-top: 40px;
+    display: inline-block;
+    color: rgb(160, 166, 195);
+    fill: rgb(54, 74, 153);
+    height: 81px; width: 68px;
+    user-select: none;
+    transition: unset;
+}
+
+.itemTile-md .title {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.itemTile-lg {
+    cursor: pointer;
+    border: 1px solid rgb(204, 208, 226);
+}
+
+.itemTile-lg .topTile {
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 208, 226);
+}
+
+.itemTile-lg .icon {
+    max-width: 155px;
+    max-height: 213px;
+    width: 155px;
+    height: 213px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.itemTile-lg .iconcontainer {
+    padding-top: 30px;
+}
+
+.itemTile-lg .icon img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.itemTile-lg .title {
+    margin-top: 30px;
+    color: rgb(73, 73, 72);
+    font-size: 14px;
+}
+
+.itemTile-lg .bottomTile {
+    background-color: rgb(241, 242, 244);
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemTile-lg .bottomTile .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.itemTile-lg .bottomTile .titleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemTile-lg .bottomTile .priceDescription {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.itemTile-lg .bottomTile p.titleLabel {
+    margin: 0;
+    padding-left: 8px;
+    font-size: 14px;
+    color: rgb(160, 166, 195);
+}
+
+.itemTile-lg .bottomTile p.priceLabel{
+    color: rgb(73, 73, 72);
+    font-size: 18px;
+}
+
+.itemTile-lg .info-popup-btn {
+    height: 17px; width: 17px;
+    max-height: 17px; max-width: 17px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(204, 208, 226);
+    background-color: rgb(241, 242, 244);
+    border-radius: 50%;
+    box-sizing: content-box;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.itemTile-lg .info-popup-btn svg {
+    color: rgb(54, 74, 153);
+    fill: currentcolor;
+    height: 17px; width: 1px;
+    user-select: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"
+}
+/* Koniec Buttons*/
+
+/* Kolory */
+.primaryTextColor {
+    color: rgb(54, 74, 153);
+}
+
+.darkTextColor {
+    color: rgb(73, 73, 72);
+}
+
+.primaryBgColor {
+    background-color: rgb(54, 74, 153);
+}
+
+.successBgColor {
+    background-color: rgb(54, 153, 87);
+}
+
+.secondaryBgColor {
+    background-color: rgb(195, 171, 132);
+}
+
+.lightBgColor {
+    background-color: rgb(241, 242, 244);
+}
+
+/*.primaryBgColor:hover {*/
+/*    background-color: rgb(115, 129, 184);*/
+/*}*/
+
+/*.successBgColor:hover {*/
+/*    background-color: rgb(115, 184, 138);*/
+/*}*/
+
+/*.secondaryBgColor:hover {*/
+/*    background-color: rgb(213, 196, 169);*/
+/*}*/
+/* Koniec kolorów */
+
+/* Modal */
+.modal {
+    padding-top: 5rem;
+}
+
+.modal-content {
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-body {
+    border: 1px solid rgb(204, 208, 226);
+    padding: 50px 30px;
+}
+
+.modal-dialog {
+    max-height: calc(100% - 2rem);
+    margin: 0 auto;
+    width: 75%;
+    max-width: 768px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 45px, rgba(0, 0, 0, 0.22) 0 10px 18px;
+}
+
+.modal-dialog h3 {
+    color: rgb(73, 73, 72);
+    font-size: 24px;
+    margin: 0;
+}
+
+.modal-dialog h4 {
+    color: rgb(54, 74, 153);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.modal-dialog p {
+    color: rgb(73, 73, 72);
+    margin-top: 0;
+    font-size: 14px;
+}
+/* Koniec Modal */
