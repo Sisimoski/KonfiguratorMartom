@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="added settings">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ustawienia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iFM9qRPasH7nZkU3ngxkSq8QV1" />
@@ -77,7 +83,7 @@
       <workItem from="1601636796807" duration="6018000" />
       <workItem from="1601879236201" duration="40701000" />
       <workItem from="1602483277743" duration="415000" />
-      <workItem from="1602484476244" duration="7962000" />
+      <workItem from="1602484476244" duration="18929000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -191,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602489128705</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixes">
+      <created>1602494242471</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602494242471</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +237,8 @@
     <MESSAGE value="css refactoring" />
     <MESSAGE value="small svg icon fixes" />
     <MESSAGE value="added settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="added settings" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
@@ -247,9 +261,10 @@
     <state x="160" y="29" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1601647626934" />
     <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601643247990" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
-    <state x="373" y="189" key="Vcs.Push.Dialog.v2" timestamp="1601893871395">
+    <state x="373" y="189" key="Vcs.Push.Dialog.v2" timestamp="1602494319672">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="373" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-1431.1080.1920@0.0.1280.800" timestamp="1602494319672" />
     <state x="373" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1601893871395" />
     <state x="373" y="195" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601640148444" />
     <state x="560" y="257" key="Vcs.Push.Dialog.v2/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601501630064" />

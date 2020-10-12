@@ -6,6 +6,56 @@ body {
     padding-bottom: 50px;
 }
 
+/* Navbar Settings */
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-nav {
+    padding: 0;
+}
+
+.nav-item {
+    padding-left: 15px; padding-right: 15px;
+    height: 70px;
+}
+
+.nav-link-setting {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 0!important;
+    cursor: unset;
+}
+
+.nav-item .borderItem {
+    height: 10px;
+    border-left: 1px solid rgb(84, 101, 167);
+}
+
+.nav-item .number-item {
+    font-size: 10px;
+    color: rgb(84, 101, 167);
+}
+
+.squareBtn-nav {
+    height: 70px; width: 70px;
+    padding: 0;
+    border-radius: 0;
+    overflow: visible;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.squareBtn-nav svg {
+    height: 70px; width: 12px;
+    max-height: 100%; max-width: 100%;
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+}
+
 /* change the brand and text color */
 .primaryBgColor .navbar-brand,
 .primaryBgColor .navbar-text {
@@ -13,18 +63,12 @@ body {
 }
 /* change the link color */
 .primaryBgColor .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: white;
 }
 /* change the color of active or hovered links */
 .primaryBgColor .nav-item.active .nav-link,
 .primaryBgColor .nav-item:hover .nav-link {
-    color: #ffffff;
-}
-
-.navbar-brand,
-.navbar-nav li a {
-    height: 70px;
-    padding-top: 0;
+    color: #c3ab83;
 }
 
 /* To jest takie I dunno, trochę danger */
@@ -49,49 +93,26 @@ body {
 /* End of danger */
 
 .dropdown-menu-martom {
+    width: 70px;
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
-    text-align: center;
-    border: 1px solid #ffffff;
+    border: none;
     border-radius: 0;
     min-width: 142px;
     background-color: rgb(195, 171, 132);
 }
 
-.nav-link {
-    height: 70px; width: 70px;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-}
-
-.nav-link svg {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    fill: currentcolor;
-    height: 70px; width: 12px;
-    user-select: none;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-}
-
-.nav-link:hover {
-    background-color: rgb(115, 129, 184);
-}
-
-.nav-link-usermenu {
-    background-color: rgb(195, 171, 132);
-    width: 70px;
-}
-
-.nav-link-usermenu:hover {
-    background-color: rgb(213, 196, 169);
-}
-
 .dropdown-item {
+    height: 70px; width: 142px;
     color: white;
+    border: 1px solid #ffffff;
+    border-image: initial;
+    box-sizing: content-box;
+    border-radius: 0;
     font-size: 18px;
     padding: 0;
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
