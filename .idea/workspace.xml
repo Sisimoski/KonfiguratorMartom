@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="css refactoring">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="small svg icon fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ustawienia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,9 @@
       <workItem from="1601619503516" duration="345000" />
       <workItem from="1601621669818" duration="13258000" />
       <workItem from="1601636796807" duration="6018000" />
-      <workItem from="1601879236201" duration="38102000" />
+      <workItem from="1601879236201" duration="40701000" />
+      <workItem from="1602483277743" duration="415000" />
+      <workItem from="1602484476244" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602247847923</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="small svg icon fixes">
+      <created>1602249012289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602249012290</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +215,8 @@
     <MESSAGE value="dropdown icons updated to reflect if it is collapsed or expanded" />
     <MESSAGE value="settings page added" />
     <MESSAGE value="css refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="css refactoring" />
+    <MESSAGE value="small svg icon fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small svg icon fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">

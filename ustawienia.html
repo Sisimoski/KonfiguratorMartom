@@ -57,8 +57,20 @@
             <div class="row">
                 <div class="col">
                     <div class="row" style="padding-top: 50px">
+                        <span class="">
+                            <button class="btn squareBtn-md primaryBgColor" type="button" style="position: absolute; left: -51px;" >
+                                <svg viewBox="0 0 7 12"><path d="M6.66,1l-5,5,5,4.95L6,11.66,1,6.71.29,6,1,5.29,6,.34Z"></path></svg>
+                            </button>
+                        </span>
                         <!-- Okienko podsumowania przedmiotu -->
                         <div class="col-4 summaryPreview">
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn squareBtn-md secondaryBgColor" type="button" style="position: absolute; top: 0; right: 0;" >
+                                        <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                    </button>
+                                </div>
+                            </div>
                             <div class="row topPreview border border-bottom-0">
                                 <div class="col d-flex justify-content-center">
                                     <div class="icon d-flex justify-content-center">
@@ -75,31 +87,32 @@
                                             <button class="squareBtn-sm primaryBgColor" type="button" data-toggle="collapse" data-target="#summarywindow" aria-expanded="true" style="position: absolute; top: -1px; right: -1px;">
                                                 <svg class="arrowUpIcon" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg>
                                             </button>
-<!--                                            <button style="border: 10px; box-sizing: content-box; display: inline-block; font-family: &quot;Nunito Sans&quot;; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: absolute; height: 30px; line-height: 36px; min-width: 30px; color: rgb(160, 166, 195); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; overflow: visible; background-color: rgb(54, 74, 153); text-align: center; width: 30px; max-width: 30px; min-height: 30px; max-height: 30px; top: -1px; right: -1px;" tabindex="0" type=""><svg style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 30px; width: 12px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg></button>-->
                                             <p class="title">G 00</p>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="row md-DetailRow lightBgColor">
-                                                <p class="text-left text-uppercase textMuted">Razem</p>
-                                                <p class="text-right text-uppercase">1199,00</p>
-                                            </div>
-                                            <div class="row sm-DetailRow">
-                                                <p class="text-left textMuted">Standard</p>
-                                                <p class="text-right textMuted">PLN</p>
-                                            </div>
-                                            <div class="row sm-DetailRow lightBgColor">
-                                                <p class="text-left text-uppercase">Optimal</p>
-                                                <p class="text-right text-uppercase">1059,00</p>
-                                            </div>
-                                            <div class="row sm-DetailRow">
-                                                <p class="text-left textMuted">Akcesoria</p>
+                                    <div class="collapse" id="summarywindow">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="row md-DetailRow lightBgColor">
+                                                    <p class="text-left text-uppercase textMuted">Razem</p>
+                                                    <p class="text-right text-uppercase">1199,00</p>
+                                                </div>
+                                                <div class="row sm-DetailRow">
+                                                    <p class="text-left textMuted">Standard</p>
+                                                    <p class="text-right textMuted">PLN</p>
+                                                </div>
+                                                <div class="row sm-DetailRow lightBgColor">
+                                                    <p class="text-left text-uppercase">Optimal</p>
+                                                    <p class="text-right text-uppercase">1059,00</p>
+                                                </div>
+                                                <div class="row sm-DetailRow">
+                                                    <p class="text-left textMuted">Akcesoria</p>
 
-                                            </div>
-                                            <div class="row sm-DetailRow lightBgColor">
-                                                <p class="text-left">Klamka Riva inox</p>
-                                                <p class="text-right">140,00</p>
+                                                </div>
+                                                <div class="row sm-DetailRow lightBgColor">
+                                                    <p class="text-left">Klamka Riva inox</p>
+                                                    <p class="text-right">140,00</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -115,9 +128,6 @@
                                         <button class="btn squareBtn-md successBgColor" type="button">
                                             <svg viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
                                         </button>
-                                        <button class="btn squareBtn-sm primaryBgColor" type="button">
-                                            <svg viewBox="0 0 12 14" ><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>
-                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -129,6 +139,9 @@
                                                 <div class="d-flex flex-column align-items-center">
                                                     <span>Wnętrze</span>
                                                     <svg viewBox="0 0 246 123"><path d="M236,49 L236,40 L226,40 L226,30 L245,30 L245,0 L246,0 L246,30 L246,39 L246,40 L246,49 L236,49 ZM245,40 L245,39 L245,31 L227,31 L227,39 L236,39 L237,39 L237,40 L237,48 L245,48 L245,40 ZM220.379,81.093 L230.227,82.83 L228.491,92.678 L218.643,90.941 L217.601,96.85 L211.692,95.808 L210.303,103.687 L210.129,104.672 L209.608,107.626 L187.943,103.806 L188.637,99.867 L206.364,102.992 L207.753,95.114 L201.844,94.072 L202.886,88.163 L15.772,55.17 L17.509,45.322 L204.622,78.315 L205.665,72.406 L211.573,73.448 L212.962,65.57 L195.236,62.444 L195.931,58.505 L217.596,62.325 L217.075,65.279 L216.902,66.264 L215.513,74.143 L221.421,75.185 L220.379,81.093 ZM207.349,103.166 L207.175,104.151 L206.19,103.977 L189.448,101.025 L189.101,102.995 L208.797,106.468 L209.144,104.498 L209.318,103.513 L210.707,95.635 L208.738,95.288 L207.349,103.166 ZM207.927,94.129 L207.927,94.129 L211.564,94.77 L216.79,95.692 L217.658,90.768 L203.871,88.337 L203.002,93.261 L207.927,94.129 ZM18.3200000000001,46.48 L16.931,54.359 L227.68,91.52 L229.069,83.641 L18.3200000000001,46.48 ZM215.917,66.091 L216.09,65.106 L216.437,63.136 L196.742,59.663 L196.394,61.633 L213.136,64.585 L214.121,64.758 L213.947,65.743 L212.558,73.622 L214.528,73.969 L215.917,66.091 ZM215.339,75.128 L215.339,75.128 L211.399,74.433 L211.399,74.433 L206.476,73.565 L205.607,78.489 L219.394,80.92 L220.263,75.996 L215.339,75.128 ZM181.759,57.76 C182.198,55.779 182.554,53.752 182.817,51.737 L183.81,51.867 C183.542,53.911 183.181,55.967 182.735,57.977 L181.759,57.76 ZM184.329,39.483 C184.379,40.542 184.403,41.634 184.403,42.729 C184.403,43.718 184.383,44.704 184.342,45.685 L183.342,45.644 C183.383,44.675 183.403,43.704 183.403,42.729 C183.403,41.649 183.379,40.573 183.331,39.529 L184.329,39.483 ZM179.005,69.796 L178.081,69.413 C178.859,67.538 179.563,65.604 180.176,63.667 L181.129,63.968 C180.509,65.933 179.794,67.894 179.005,69.796 ZM183.776,33.3 L182.786,33.434 C182.677,32.623 182.546,31.812 182.408,31 L50,31 L50,30 L196,30 L196,31 L183.42,31 C183.547,31.767 183.673,32.535 183.776,33.3 ZM10,49 L0,49 L0,40 L0,39 L0,30 L0,0 L1,0 L1,30 L20,30 L20,40 L10,40 L10,49 ZM19,39 L19,31 L1,31 L1,39 L1,40 L1,48 L9,48 L9,40 L9,39 L10,39 L19,39 ZM134.401,109.426 C136.34,108.819 138.273,108.119 140.149,107.345 L140.53,108.269 C138.628,109.054 136.666,109.764 134.7,110.38 L134.401,109.426 ZM124.711,111.518 L133.889,98.412 L134.707,98.985 L125.942,111.503 C126.79,111.348 127.635,111.186 128.471,111.002 L128.685,111.978 C127.831,112.166 126.968,112.333 126.1,112.49 L138.637,121.269 L138.062,122.088 L124.137,112.337 L124.711,111.518 L124.711,111.518 ZM125.653,112.177 L125.616,111.967 L125.53,112.091 L125.653,112.177 ZM151.526,102.556 C149.788,103.663 147.98,104.706 146.153,105.655 L145.692,104.767 C147.493,103.831 149.275,102.804 150.989,101.712 L151.526,102.556 ZM161.353,95.008 C159.833,96.403 158.236,97.745 156.606,98.998 L155.997,98.205 C157.603,96.97 159.179,95.646 160.678,94.271 L161.353,95.008 ZM169.721,85.867 C168.469,87.499 167.129,89.098 165.737,90.619 L164.999,89.944 C166.371,88.444 167.693,86.868 168.928,85.258 L169.721,85.867 Z "></path></svg>
+                                                    <button class="btn squareBtn-md successBgColor" type="button" style="position: absolute; top: 0px; right: 0px;">
+                                                        <svg class="tickIcon" viewBox="0 0 13 12"><path d="M5.505,11.755 C5.33299999999997,11.755 5.16999999999996,11.667 5.07799999999997,11.523 L0.11099999999999,5.565 L0.87800000000004,4.92400000000001 L5.46500000000003,10.425 L12.096,0.958 L12.915,1.53200000000001 L5.96100000000001,11.46 C5.96000000000004,11.462 5.95899999999995,11.464 5.95799999999997,11.466 C5.87599999999998,11.642 5.69899999999996,11.755 5.505,11.755 Z "></path></svg>
+                                                    </button>
                                                 </div>
                                             </div>
                                             <div class="bottomTile text-center">

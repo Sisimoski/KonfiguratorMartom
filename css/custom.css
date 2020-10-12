@@ -140,6 +140,8 @@ h2 {
 }
 
 .summaryPreview .topPreview .icon {
+    display: inline-block;
+    position: relative;
     max-width: 225px;
     max-height: 306px;
     width: 225px;
@@ -190,6 +192,7 @@ h2 {
 .settingsTile .topTile {
     background-color: rgb(241, 242, 244);
     padding: 50px;
+    position: relative;
 }
 
 .settingsTile .topTile span {
@@ -287,6 +290,19 @@ h2 {
     max-height: 100%; max-width: 100%;
     color: rgb(255, 255, 255);
     fill: currentcolor;
+}
+
+.squareBtn-md .tickIcon {
+    height: 50px; width: 13px;
+}
+
+.squareBtn-md svg.tickIcon {
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+}
+
+.squareBtn-md .plusIcon {
+    height: 50px; width: 11px;
 }
 
 .squareBtn-sm[aria-expanded=false] .dropdown-collapsed{
