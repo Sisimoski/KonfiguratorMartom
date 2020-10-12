@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="small svg icon fixes">
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="added settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ustawienia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
@@ -77,7 +77,7 @@
       <workItem from="1601636796807" duration="6018000" />
       <workItem from="1601879236201" duration="40701000" />
       <workItem from="1602483277743" duration="415000" />
-      <workItem from="1602484476244" duration="3952000" />
+      <workItem from="1602484476244" duration="7962000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602249012290</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added settings">
+      <created>1602489128705</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602489128705</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <MESSAGE value="settings page added" />
     <MESSAGE value="css refactoring" />
     <MESSAGE value="small svg icon fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small svg icon fixes" />
+    <MESSAGE value="added settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="added settings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
