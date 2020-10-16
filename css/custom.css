@@ -251,6 +251,71 @@ h2 {
     margin: 0;
 }
 
+.colorTile {
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.colorTile p {
+    margin: 0;
+}
+
+.colorTile .iconrow {
+    padding: 50px 50px 30px;
+}
+
+.colorTile .iconcol {
+    height: 170px;
+}
+
+.colorTile .iconrow .icon {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%; width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.inverted {
+    transform: scaleX(-1);
+}
+
+.colorTile .iconrow .icon img {
+    max-height: 100%; max-width: 100%;
+    position: absolute;
+    margin: auto;
+}
+
+.colorTile .labelrow {
+    font-size: 14px;
+    color: rgb(73, 73, 72);
+    padding: 0 0 30px;
+}
+
+.colorTile .detailRow {
+    height: 30px;
+    border-left: 1px solid rgb(241, 242, 244);
+    border-right: 1px solid rgb(241, 242, 244);
+    color: rgb(73, 73, 72);
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.colorTile .detailRow .detailCol, .detailCol p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; padding: 0;
+    text-align: center;
+}
+
+.border-bottom-tile {
+    border-bottom: 1px solid rgb(204, 208, 226);
+}
+
 .md-DetailRow {
     padding: 30px;
     font-size: 18px;
@@ -491,7 +556,7 @@ h2 {
     font-size: 18px;
 }
 
-.itemTile-lg .info-popup-btn {
+.info-popup-btn {
     height: 17px; width: 17px;
     max-height: 17px; max-width: 17px;
     padding: 0;
@@ -504,7 +569,7 @@ h2 {
     line-height: 0;
 }
 
-.itemTile-lg .info-popup-btn svg {
+.info-popup-btn svg {
     color: rgb(54, 74, 153);
     fill: currentcolor;
     height: 17px; width: 1px;
@@ -614,3 +679,24 @@ h2 {
 }
 
 /* Koniec Modal */
+
+.alert-custom {
+    border: 1px solid rgb(204, 208, 226);
+    margin: 30px 15px 0;
+    padding: 30px 30px 30px 50px;
+}
+
+.alert-title {
+    color: rgb(54, 74, 153);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.alert-body {
+    margin: 20px 0 0;
+    color: rgb(73, 73, 72);
+    font-size: 14px;
+    padding: 0;
+}
