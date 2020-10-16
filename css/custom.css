@@ -213,16 +213,16 @@ h2 {
 
 }
 
-.settingTile .topTileCol {
-
+.settingTile .topTileCol img {
+    height: 100%; width: 100%;
 }
 
 .settingTile .bottomTileRow {
-
+    display: inline;
 }
 
 .settingTile .bottomTileRow .bottomTileCol{
-    height: 30px;
+    line-height: 30px;
     border-left: 1px solid rgb(241, 242, 244);
     border-right: 1px solid rgb(241, 242, 244);
     font-size: 14px;
@@ -354,10 +354,6 @@ h2 {
     align-items: center;
     margin: 0; padding: 0;
     text-align: center;
-}
-
-.border-bottom-tile {
-    border-bottom: 1px solid rgb(204, 208, 226);
 }
 
 .md-DetailRow {
@@ -631,6 +627,10 @@ h2 {
     color: rgb(73, 73, 72);
 }
 
+.lightTextColor {
+    color: rgb(160, 166, 195);
+}
+
 .primaryBgColor {
     background-color: rgb(54, 74, 153);
 }
@@ -659,6 +659,19 @@ h2 {
 /*    background-color: rgb(213, 196, 169);*/
 /*}*/
 /* Koniec kolorów */
+
+/* Bordery */
+
+.border-bottom-tile-end {
+    border-bottom: 1px solid rgb(204, 208, 226);
+}
+
+.border-bottom-tile-separator {
+    border-bottom: 1px solid rgb(241, 242, 244);
+}
+
+/* Koniec borderów */
+
 
 /* Modal */
 .modal {
