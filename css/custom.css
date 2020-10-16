@@ -199,6 +199,50 @@ h2 {
     color: rgb(160, 166, 195);
 }
 
+
+
+
+
+.settingTile {
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.settingTile .topTileRow {
+
+}
+
+.settingTile .topTileCol {
+
+}
+
+.settingTile .bottomTileRow {
+
+}
+
+.settingTile .bottomTileRow .bottomTileCol{
+    height: 30px;
+    border-left: 1px solid rgb(241, 242, 244);
+    border-right: 1px solid rgb(241, 242, 244);
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.settingTile .bottomTileRow .bottomTileCol, .bottomTileCol p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+
 .settings {
     padding: 0;
 }

@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="added modal to settings">
-      <change afterPath="$PROJECT_DIR$/kolor.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="kolor page added">
+      <change afterPath="$PROJECT_DIR$/kolorsciany.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolor.html" beforeDir="false" afterPath="$PROJECT_DIR$/kolorstron.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ustawienia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ustawienia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <workItem from="1601879236201" duration="40701000" />
       <workItem from="1602483277743" duration="415000" />
       <workItem from="1602484476244" duration="18929000" />
-      <workItem from="1602828996034" duration="14899000" />
+      <workItem from="1602828996034" duration="18105000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -212,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602837634377</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="kolor page added">
+      <created>1602848702504</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602848702504</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="added settings" />
     <MESSAGE value="fixes" />
     <MESSAGE value="added modal to settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="added modal to settings" />
+    <MESSAGE value="kolor page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="kolor page added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
