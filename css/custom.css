@@ -459,6 +459,31 @@ h2 {
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
 }
 
+.squareBtn-sm-block {
+    height: 30px; width: auto;
+    margin: 0;
+    padding: 0;
+    border: 10px;
+    border-radius: 0;
+    box-sizing: content-box;
+    line-height: 0;
+    overflow: visible;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
+}
+
+.squareBtn-sm-block p.btn-text {
+    margin: 0;
+    padding: 0 16px;
+    vertical-align: middle;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .squareBtn-sm svg {
     max-height: 100%; max-width: 100%;
     color: rgb(255, 255, 255);
