@@ -222,7 +222,8 @@ h2 {
 }
 
 .settingTile .bottomTileRow {
-    display: inline;
+    display: flex;
+    flex-direction: column;
 }
 
 .settingTile .bottomTileRow .bottomTileCol{
