@@ -238,10 +238,73 @@ h2 {
     text-align: center;
 }
 
+.settingTile .topTileRow.standardBlock {
+    max-height: 100px; min-height: 100px;
+    font-size: 18px;
+}
 
+.standardBlock .leftTile {
+    width: 70px;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.standardBlock .centerTile {
+    width: 140px;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.standardBlock .rightTile {
+    width: calc(100% - 212px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.opisstandarduLabel {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    color: rgb(160, 166, 195);
+}
+
+.helppanel {
+    padding: 15px; margin: 0;
+}
+
+.helppanel .topTileRow {
+    border-top: rgb(204, 208, 226);
+    border-left: rgb(204, 208, 226);
+    border-right: rgb(204, 208, 226);
+}
+
+.helppanel .topTileRow .topTileCol {
+    padding: 30px; margin: 0;
+    text-align: left;
+    position: relative;
+}
+
+.helppanel .bottomTileRow {
+    border-bottom: rgb(204, 208, 226);
+    border-left: rgb(204, 208, 226);
+    border-right: rgb(204, 208, 226);
+}
+
+.helppanel .bottomTileRow .bottomTileCol {
+    margin: 1px 0 0;
+    padding: 0 30px 0 10px;
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+}
 
 .settings {
     padding: 0;
@@ -404,6 +467,14 @@ h2 {
 
 .squareBtn-sm .arrowUpIcon {
     height: 30px; width: 12px;
+}
+
+.squareBtn-sm .arrowRightIcon {
+    height: 30px; width: 7px;
+}
+
+.squareBtn-sm .plusIcon {
+    height: 30px; width: 11px;
 }
 
 .squareBtn-md {
@@ -602,7 +673,6 @@ h2 {
     padding: 0;
     margin: 0;
     border: 1px solid rgb(204, 208, 226);
-    background-color: rgb(241, 242, 244);
     border-radius: 50%;
     box-sizing: content-box;
     cursor: pointer;

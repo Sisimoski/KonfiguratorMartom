@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src = "js/custom.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--  Nunito Sans Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icons from Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Icons from Boxicons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Konfigurator Martom</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light primaryBgColor fixed-top py-0 px-0 justify-content-start">
+    <button class="navbar-toggler btn squareBtn-nav secondaryBgColor order-0" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle Navbar">
+        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+    </button>
+    <a class="nav-link squareBtn-nav primaryBgColor order-1 order-lg-3" href="#">
+        <svg viewBox="0 0 12 14"><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>
+    </a>
+    <!-- Desktop Brand Logo   -->
+    <a class="navbar-brand primaryBgColor align-items-center pl-4 py-0 order-3 order-lg-0 d-none d-lg-flex" href="#">
+        <img src="https://drzwimartom.pl/wp-content/themes/martom/img/martom_logo.svg" width="131px">
+    </a>
+    <!-- Mobile Brand Logo   -->
+    <div class="d-flex position-absolute justify-content-center" style="height: 70px; width: 100%; z-index: -2">
+        <a class="navbar-brand primaryBgColor m-0 py-0 order-3 d-lg-none" href="#">
+            <svg viewBox="0 0 19 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 100%; width: 19px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: pointer;"><path d="M 14.309,4.801 H 4.771 L 9.54,9.598 V 23.991 L 4.771,19.193 0.002,14.396 V 0.004 h 19.076 v 14.392 l -4.769,4.797 z"></path></svg>
+        </a>
+    </div>
+    <span class="border-left border-white order-2 order-lg-2 h-100"></span>
+    <a class="nav-link squareBtn-nav secondaryBgColor text-center d-none d-lg-block order-lg-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 12 14" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 12px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M11,14 L11,8 L1,8 L1,14 L0,14 L0,8 L0,7 L1,7 L11,7 L12,7 L12,8 L12,14 L11,14 ZM6,6 C4.346,6 3,4.654 3,3 C3,1.346 4.346,0 6,0 C7.654,0 9,1.346 9,3 C9,4.654 7.654,6 6,6 ZM6,1 C4.89699999999993,1 4,1.897 4,3 C4,4.103 4.89699999999993,5 6,5 C7.10300000000007,5 8,4.103 8,3 C8,1.897 7.10300000000007,1 6,1 Z "></path></svg>
+    </a>
+    <div class="dropdown-menu dropdown-menu-lg-right dropdown-menu-martom order-lg-4" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Zaloguj</a>
+    </div>
+
+    <div class="collapse navbar-collapse order-4 order-lg-1" id="navbarToggle">
+        <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item secondaryBgColor d-flex align-items-center d-lg-none">
+                <a class="nav-link" href="#">Zaloguj</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">01</div>
+                <a class="nav-link nav-link-setting" href="#">Ustawienia</a>
+            </li>
+            <li class="nav-item active primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">02</div>
+                <a class="nav-link nav-link-setting" href="#">Kolor</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">03</div>
+                <a class="nav-link nav-link-setting" href="#">Standard</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">04</div>
+                <a class="nav-link nav-link-setting" href="#">Akcesoria</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">05</div>
+                <a class="nav-link nav-link-setting" href="#">Wizualizacja</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">06</div>
+                <a class="nav-link nav-link-setting" href="#">Wymiary</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">07</div>
+                <a class="nav-link nav-link-setting" href="#">Podsumowanie</a>
+            </li>
+
+            <!--            <span class="border-left border-white order-2 order-md-1"></span>-->
+            <!--            <li class="nav-item px-0 order-1 order-md-2">-->
+            <!--                <a class="nav-link squareBtn-nav primaryBgColor text-center" href="#">-->
+            <!--                    <svg viewBox="0 0 12 14"><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>-->
+            <!--                </a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item px-0 dropdown order-0 order-md-3">-->
+            <!--                <a class="nav-link squareBtn-nav secondaryBgColor text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+            <!--                    <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>-->
+            <!--                </a>-->
+            <!--                <div class="dropdown-menu dropdown-menu-lg-right dropdown-menu-martom" aria-labelledby="navbarDropdown">-->
+            <!--                    <a class="dropdown-item" href="#">Zaloguj</a>-->
+            <!--                </div>-->
+            <!--            </li>-->
+        </ul>
+    </div>
+</nav>
+
+<main role="main">
+    <section id="ustawienia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="row justify-content-center" style="padding-top: 50px">
+                        <div class="col-12 col-md-10 p-0">
+                            <div class="row">
+                                <span class="">
+                            <button class="btn squareBtn-md primaryBgColor" type="button" style="position: absolute; left: -51px;" >
+                                <svg viewBox="0 0 7 12"><path d="M6.66,1l-5,5,5,4.95L6,11.66,1,6.71.29,6,1,5.29,6,.34Z"></path></svg>
+                            </button>
+                        </span>
+                                <!-- Okienko podsumowania przedmiotu -->
+                                <div class="col-12 col-md-4 summaryPreview">
+                                    <div class="row order-7">
+                                        <div class="col">
+                                            <button class="btn squareBtn-md secondaryBgColor" type="button" style="position: absolute; top: 0; right: 0;" data-toggle="modal" data-target="#zoominModal">
+                                                <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row topPreview border border-bottom-0 order-6 order-lg-5">
+                                        <div class="col d-flex justify-content-center">
+                                            <div class="icon d-flex justify-content-center" style="margin-bottom: 6px">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/b0adc76ca6874cbf9347b4d86d7b52f4.png" alt="">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/885a140401ba494f8d7fcda6bb95d5de.png" alt="">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/cbad7a41d79e4b3aab0d94ba7dcff455.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row bottomPreview border order-5 order-lg-6">
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button class="squareBtn-sm primaryBgColor" type="button" data-toggle="collapse" data-target="#summarywindow" aria-expanded="true" style="position: absolute; top: -1px; right: -1px;">
+                                                        <svg class="arrowUpIcon" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg>
+                                                    </button>
+                                                    <p class="title">G 00</p>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="summarywindow">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="row md-DetailRow lightBgColor">
+                                                            <p class="text-left text-uppercase textMuted">Razem</p>
+                                                            <p class="text-right text-uppercase">1199,00</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow">
+                                                            <p class="text-left textMuted">Standard</p>
+                                                            <p class="text-right textMuted">PLN</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow lightBgColor">
+                                                            <p class="text-left text-uppercase">Optimal</p>
+                                                            <p class="text-right text-uppercase">1059,00</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow">
+                                                            <p class="text-left textMuted">Akcesoria</p>
+
+                                                        </div>
+                                                        <div class="row sm-DetailRow lightBgColor">
+                                                            <p class="text-left">Klamka Riva inox</p>
+                                                            <p class="text-right">140,00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Koniec okienka podsumowania przedmiotu -->
+                                <div class="col-12 col-md-8 settings">
+                                    <div class="row">
+                                        <div class="col" style="padding: 0 15px">
+                                            <div class="d-flex align-items-center border-bottom">
+                                                <h3 class="flex-grow-1">Standard cieplny</h3>
+                                                <button class="btn squareBtn-md successBgColor" type="button">
+                                                    <svg viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 15px">
+                                        <div class="col-12 col-lg-8 p-0">
+                                            <div class="row row-cols-1">
+                                                <div class="col settingTile">
+                                                    <div class="row topTileRow standardBlock text-white" style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAKnCAMAAACF5sm9AAAAAXNSR0IB2cksfwAAAO1QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////bAyRTwAAAE90Uk5TAAkuTT8tGghKFik7S0IwHgsvAhMlOElGNCIPAQVMQUggRydDBzoUETY5IQ4bMzwkGEAMACYSFTcEIx8QNSoXHA0ZLDI+RQMKRD0xHQYrKFdx8jIAAA8ESURBVHic7d17X9rYFsbxaLyLqEhBBeoNq3ipWm/V2tu01c5pp+//5Rx2UKuYhwQIYSf5rT96Ou61V575fmSHNmfQcXqvkVF3bHxiso8J6ayR0alRd3pmNjeXn18YdhirKrc44rjN/y0sFV+Vyssrq5VhJ7Kl3KrjyZiqrK4sl0uvikuFoUaypJ7KeLUwn5/Lzc5MV4eVyJZ6IWNqcmJ8rJb1Y9lXxlQ128dy846tZExl9lj27tidZExl8lj27thBMl5l7Vj2VELJmMrSsdydjKmsHMvdy5jKwrHcm4yptB/Lvct4leJjuU8ZUyk9liOQMZXCYzkiGVMpO5YjlDGVomM5Yhmv0nEsD0LGVPKP5UHJmEr2sTxIGVPJPZYHLeNdI5HHciwy5pfEHcuxyZhK1LEcq4ypxBzLscuYSsSxPBQZU9a/Wx6ajFc2H8vDlTFl67E8fBlTNh7LdsiYah3Lr605lu2RMVVZda05lu2S8XotOZYtlDFlwbFsqYypIR/LFsuYGuK7ZctlTA3p3XICZLyK/1hOioypno9lt6dKkIwpcyx3+6/ouGvrPaROmIypLo/lpszqxmYXGe63JVDGVBfHclPGWdga7fbullQZr8Idy0bGqY8td3lrS7SMqeBj2ZNxqtvb3d3XEi9jqvO75ZaMU1geq3czNBUypvSx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xzf3Di72Jwu8mhz3Mv/xaP7TzkL7/78CmcAWZFQLMk+LexP3Jh2Be5OKwL1JReAEVhGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURH8r1LdmUembWXyzd54o1zb2kXm4TeVheOj/NtSbuxw82CfT+bxflfYP9g8HMuV3uaPjhcqL1oyK7O7VSs3xvfeTKqWzMrM71Q7t2RWxnedexP3Jh2Be5OKwL1JReDepCJwb1IR+BOlioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMiuB/FT6Z5+VVHj+ZZ0J1RHDVZMm0fzKPT29kV02KjP8n8/j0RnbVZMioT+bx6Y3sqomQWVKfzOPTG9lVEyETbW/IScioScioScioScioScioScioScioScioScioScioScioScioScioScioSci0T/LKQcZ/EjJqEjJqEjJqEjJqEjJ+k7g3dZqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjN8k/k6v0yRk1CRk1CRk1CRk1CRk/CZxbwqahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyaJGUCKsMyAfuRUfuRUfuRUfuRUfszIdNTpVKm+unj97//ir3NSJ/M++mP32tj/x1X+5yTLpn30zNvayf9q3hJUiNze/GnqTL+9XfPE9qSpEKmcPFnNvd6dCIqFS9J4mUKS5vbTZWDetc7A5IkWqZwfradm1v8LH+EWB+VXJnCebEx9XMwKl6SRMpUdo5eTf3M/7rrLVC4JImT8VR+fJsfpIqXJFEylQ9Xu6WmykJ/gcIlSYxMZX9lt1Q+vH7Xf6BwSRIh01S5WduIT8VLYr3M6Ze95bWN5b0vp9ElCpXEbpmmysbazUrcKl4Se2XeXR+Wmyr7L384bixlqczC/GG5tHv1YUgqXhL7ZBbmv/2YuhyqipfELpk7N/9z6tXRzpBVTFkkM/KrqfJv0QYVU5bITH5enMs1iueF4Na4ygKZ+kFTZXtzySIVU0OWqR+Mvs7NWqdiaogyv7+On+Rm/1zcDvDSfdSQZKpNldrbGVtVTA1Bpnr831hTZfr9AC8ZQcUsU/3UVPn+8VMUD4QGXDHKmEeqtbH/kqBiKiYZ7+FhBI9UY6wYZG7dGe/hYYJUTA1Y5tY8PIzwkWqMNUCZwtLm7CAeHsZUA5LxHqnOLSZVxdQAZMzDw0E9Uo2xIpap7JhHqvlfI9GMG2ZFKBPHI9UYKyKZyoery6mYHh7GVBHIeI9Uy4dpUjHVp4z38DDGR6oxVh8yp1/MI9XlvS+Rh7KiepQ59R4exv9INcbqRebd9eHGEB8exlTdyphHqqXdtKuY6kbGPDwc8iPVGCuszJ15pGrHw8OYKozM3S9rHqnGWLnFkY4yk58Xf07Z9fAwphoZnRpVMt4j1e2zDKq0asRXxnt4aN8j1ZirXeb3hHmk+uci2yqmnsr89h4eWvtINebyTmHHe3h4koCHhzGWdwofew8PUWmr5imcjEeqPdX/AaVX1tzg1scJAAAAAElFTkSuQmCC) right -300px no-repeat rgb(254, 207, 91);">
+                                                        <div class="col topTileCol d-flex">
+                                                            <div class="leftTile">55</div>
+                                                            <div class="centerTile">Ud od 1,2</div>
+                                                            <div class="rightTile">OPTIMAL</div>
+                                                            <button class="btn squareBtn-md successBgColor" type="button" style="position: absolute; top: 0; right: 0;">
+                                                                <svg class="tickIcon" viewBox="0 0 13 12"><path d="M5.505,11.755 C5.33299999999997,11.755 5.16999999999996,11.667 5.07799999999997,11.523 L0.11099999999999,5.565 L0.87800000000004,4.92400000000001 L5.46500000000003,10.425 L12.096,0.958 L12.915,1.53200000000001 L5.96100000000001,11.46 C5.96000000000004,11.462 5.95899999999995,11.464 5.95799999999997,11.466 C5.87599999999998,11.642 5.69899999999996,11.755 5.505,11.755 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row bottomTileRow darkTextColor">
+                                                        <div class="col bottomTileCol lightBgColor justify-content-center">
+                                                            <p class="text-center">1059,00</p>
+                                                            <p class="text-center opisstandarduLabel">Opis standardu</p>
+                                                            <button class="btn squareBtn-sm secondaryBgColor" type="button" style="position: absolute; bottom: 0; right: 0;">
+                                                                <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col settingTile">
+                                                    <div class="row topTileRow standardBlock text-white" style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAKnCAMAAACF5sm9AAAAAXNSR0IB2cksfwAAAO1QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////bAyRTwAAAE90Uk5TAAkuTT8tGghKFik7S0IwHgsvAhMlOElGNCIPAQVMQUggRydDBzoUETY5IQ4bMzwkGEAMACYSFTcEIx8QNSoXHA0ZLDI+RQMKRD0xHQYrKFdx8jIAAA8ESURBVHic7d17X9rYFsbxaLyLqEhBBeoNq3ipWm/V2tu01c5pp+//5Rx2UKuYhwQIYSf5rT96Ou61V575fmSHNmfQcXqvkVF3bHxiso8J6ayR0alRd3pmNjeXn18YdhirKrc44rjN/y0sFV+Vyssrq5VhJ7Kl3KrjyZiqrK4sl0uvikuFoUaypJ7KeLUwn5/Lzc5MV4eVyJZ6IWNqcmJ8rJb1Y9lXxlQ128dy846tZExl9lj27tidZExl8lj27thBMl5l7Vj2VELJmMrSsdydjKmsHMvdy5jKwrHcm4yptB/Lvct4leJjuU8ZUyk9liOQMZXCYzkiGVMpO5YjlDGVomM5Yhmv0nEsD0LGVPKP5UHJmEr2sTxIGVPJPZYHLeNdI5HHciwy5pfEHcuxyZhK1LEcq4ypxBzLscuYSsSxPBQZU9a/Wx6ajFc2H8vDlTFl67E8fBlTNh7LdsiYah3Lr605lu2RMVVZda05lu2S8XotOZYtlDFlwbFsqYypIR/LFsuYGuK7ZctlTA3p3XICZLyK/1hOioypno9lt6dKkIwpcyx3+6/ouGvrPaROmIypLo/lpszqxmYXGe63JVDGVBfHclPGWdga7fbullQZr8Idy0bGqY8td3lrS7SMqeBj2ZNxqtvb3d3XEi9jqvO75ZaMU1geq3czNBUypvSx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xzf3Di72Jwu8mhz3Mv/xaP7TzkL7/78CmcAWZFQLMk+LexP3Jh2Be5OKwL1JReAEVhGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURH8r1LdmUembWXyzd54o1zb2kXm4TeVheOj/NtSbuxw82CfT+bxflfYP9g8HMuV3uaPjhcqL1oyK7O7VSs3xvfeTKqWzMrM71Q7t2RWxnedexP3Jh2Be5OKwL1JReDepCJwb1IR+BOlioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMiuB/FT6Z5+VVHj+ZZ0J1RHDVZMm0fzKPT29kV02KjP8n8/j0RnbVZMioT+bx6Y3sqomQWVKfzOPTG9lVEyETbW/IScioScioScioScioScioScioScioScioScioScioScioScioScioScioSci0T/LKQcZ/EjJqEjJqEjJqEjJqEjJ+k7g3dZqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjN8k/k6v0yRk1CRk1CRk1CRk1CRk/CZxbwqahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyaJGUCKsMyAfuRUfuRUfuRUfuRUfszIdNTpVKm+unj97//ir3NSJ/M++mP32tj/x1X+5yTLpn30zNvayf9q3hJUiNze/GnqTL+9XfPE9qSpEKmcPFnNvd6dCIqFS9J4mUKS5vbTZWDetc7A5IkWqZwfradm1v8LH+EWB+VXJnCebEx9XMwKl6SRMpUdo5eTf3M/7rrLVC4JImT8VR+fJsfpIqXJFEylQ9Xu6WmykJ/gcIlSYxMZX9lt1Q+vH7Xf6BwSRIh01S5WduIT8VLYr3M6Ze95bWN5b0vp9ElCpXEbpmmysbazUrcKl4Se2XeXR+Wmyr7L384bixlqczC/GG5tHv1YUgqXhL7ZBbmv/2YuhyqipfELpk7N/9z6tXRzpBVTFkkM/KrqfJv0QYVU5bITH5enMs1iueF4Na4ygKZ+kFTZXtzySIVU0OWqR+Mvs7NWqdiaogyv7+On+Rm/1zcDvDSfdSQZKpNldrbGVtVTA1Bpnr831hTZfr9AC8ZQcUsU/3UVPn+8VMUD4QGXDHKmEeqtbH/kqBiKiYZ7+FhBI9UY6wYZG7dGe/hYYJUTA1Y5tY8PIzwkWqMNUCZwtLm7CAeHsZUA5LxHqnOLSZVxdQAZMzDw0E9Uo2xIpap7JhHqvlfI9GMG2ZFKBPHI9UYKyKZyoery6mYHh7GVBHIeI9Uy4dpUjHVp4z38DDGR6oxVh8yp1/MI9XlvS+Rh7KiepQ59R4exv9INcbqRebd9eHGEB8exlTdyphHqqXdtKuY6kbGPDwc8iPVGCuszJ15pGrHw8OYKozM3S9rHqnGWLnFkY4yk58Xf07Z9fAwphoZnRpVMt4j1e2zDKq0asRXxnt4aN8j1ZirXeb3hHmk+uci2yqmnsr89h4eWvtINebyTmHHe3h4koCHhzGWdwofew8PUWmr5imcjEeqPdX/AaVX1tzg1scJAAAAAElFTkSuQmCC) right -300px no-repeat rgb(255, 156, 91)">
+                                                        <div class="col topTileCol d-flex">
+                                                            <div class="leftTile">55</div>
+                                                            <div class="centerTile">Ud od 0,96</div>
+                                                            <div class="rightTile">NORDIC z ościeżnicą met/drew</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row bottomTileRow darkTextColor">
+                                                        <div class="col bottomTileCol lightBgColor justify-content-center">
+                                                            <p class="text-center">1379,00</p>
+                                                            <p class="text-center opisstandarduLabel">Opis standardu</p>
+                                                            <button class="btn squareBtn-sm secondaryBgColor" type="button" style="position: absolute; bottom: 0; right: 0;">
+                                                                <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col settingTile">
+                                                    <div class="row topTileRow standardBlock text-white" style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAKnCAMAAACF5sm9AAAAAXNSR0IB2cksfwAAAO1QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////bAyRTwAAAE90Uk5TAAkuTT8tGghKFik7S0IwHgsvAhMlOElGNCIPAQVMQUggRydDBzoUETY5IQ4bMzwkGEAMACYSFTcEIx8QNSoXHA0ZLDI+RQMKRD0xHQYrKFdx8jIAAA8ESURBVHic7d17X9rYFsbxaLyLqEhBBeoNq3ipWm/V2tu01c5pp+//5Rx2UKuYhwQIYSf5rT96Ou61V575fmSHNmfQcXqvkVF3bHxiso8J6ayR0alRd3pmNjeXn18YdhirKrc44rjN/y0sFV+Vyssrq5VhJ7Kl3KrjyZiqrK4sl0uvikuFoUaypJ7KeLUwn5/Lzc5MV4eVyJZ6IWNqcmJ8rJb1Y9lXxlQ128dy846tZExl9lj27tidZExl8lj27thBMl5l7Vj2VELJmMrSsdydjKmsHMvdy5jKwrHcm4yptB/Lvct4leJjuU8ZUyk9liOQMZXCYzkiGVMpO5YjlDGVomM5Yhmv0nEsD0LGVPKP5UHJmEr2sTxIGVPJPZYHLeNdI5HHciwy5pfEHcuxyZhK1LEcq4ypxBzLscuYSsSxPBQZU9a/Wx6ajFc2H8vDlTFl67E8fBlTNh7LdsiYah3Lr605lu2RMVVZda05lu2S8XotOZYtlDFlwbFsqYypIR/LFsuYGuK7ZctlTA3p3XICZLyK/1hOioypno9lt6dKkIwpcyx3+6/ouGvrPaROmIypLo/lpszqxmYXGe63JVDGVBfHclPGWdga7fbullQZr8Idy0bGqY8td3lrS7SMqeBj2ZNxqtvb3d3XEi9jqvO75ZaMU1geq3czNBUypvSxfC/jVEa3uvmDRmpkTPkfy+7j0M2N1S6SpEnGqxfH8l8ZZ33tTfgkqZMxZY7lx0lPZJyJqYnQSVIp82zSUxnnTei3w1mTcUK/Hc6cTOi3w9mTCft2OIMyId8OZ1Em3NvhTMqEejucTZkwb4ezKhP8djizMs5Eyv4euIdJQiboUsjI/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/cio/bHKLM3vBPx3ehHKtD6VJyEy7u5WrdwY33sjP/kj4u+Z5Mg4TmH/YPNwLFd6mz86Xnj5nwdnWKZVlYXjo/zbUm7scPNgv+DbG8lVkydzX5Nv9sYb5drW7oTq6POqiZVpVXVn3u3c0fNVEy7zdCGz96bAFr5nVAsyqgUZ1YKMakFGtSCjWpBRLcioFmRUCzKqBRnVgoxqQUa1IKNakFEtyKgWZFRLhDL8nV6nkciokciokciokciokcj4jeTeFDwSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUSGTUyWpmXH/PRcyVOZrX89OclP18bGc2dLM6/O402o+OqT+axS6ZxVi+fey3tMiOjU6Puxdnl2trl2cX76DLqT+axSyY36SwWvZZ2mdziiPeF03fziyf9Z332avL/ZJ6kyDz7QsQyrWr/ZB67ZPSrafAy9/X4yTx2yegTODaZVg3wk3lav+ntru3E+j2TjHvT43KMMsm4Nw3n1ZSEe9MwT2C7703DvGvfl6X3JgtkWmXdvcmC9zMvF6yQseb9jGObzOMyMmoZmbbi1aQq8AReL5XWMykTdNdeLZ2fl1aRebbH+0Ix7zj5YhZlgl5N2ZUJOoGz+2p6XJYnsJvRE/hxWd613RADQhQyna4REAaZwBZkVEtCZMIMCFHIdLpGwCxkAluQUS3IqBZkVAsyqgUZ1WK5TO7q9P4L9etGrc+EqZL5sHVTdT2WXOO6Hl3G5Ms41ZstNyIWJ10yzulKLSIWJ2UyjlPwae6xUiYTYSHT6RoBYZAJbEFGtSCjWpBRLcioFmRUCzKqBRnVgoxqQUa1IKNakFEtyKgWZFQLMqoFGdWCjGpBRrUgo1qQUS3IqBZkVAsyqgUZ1YKMakFGtSCjWpBRLcioFmRUCzKqJbMyl/mPR/OfdhbaP9MJmc9XM4s3s6833Fr5pHE4vrl3cLE/ad0n8zwuD+HVVKl/Wfp6Xfzn26vvP3JuaQ4Z3/Xbuw/IBLYgo1oyK8O9SUTg3qQicG9SEbg3qQicwCoCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMipCKmSy/DNMH5d9ZAb1M0wDWyyXGdzPMA1ssVzm+c8wbX8633vG5Ms8/3RKZJ58ERlkOu9HRi0jo5aRUcvIqGVk1DIyahkZtYyMWkZGLSOjlpFRy8ioZWTUMjJqGRm1jIzfaoifr51RGe8XZMQqMmoVGbWKjFpFRq0io1aRUatKZqa29vPkX/fyf+MzZyu/JqbP9+9+3/aTMVEynd7p3f6+2z+fnvi1cjYz/r+bxr8nP9dqrqfVuOlGK5EyIf508Lx8tcJmTLVMD5dAJsQ6MmodGbWOjFpPi0zr/cx24B06ezKtO7S7HvR+Jnsyf//hb/X5fkZWyLhdVNwyvVQ2vmd6KWQ6XSMgDDKBLcioFitkVssPN4b4ZJJxb2qc1cvnXks6v2cexLuXyU06i0WvJZ0yD78g4zeyN5m0v5oefknGCRzYYoXM4zIyajmlMr3fm3g1qeIEVhV4114vldaR8ZFZLZ2fl1azKBP0airmHSdfzKJM0AmcXZnHZV5NalmewG5GT+Dg9zPuwz9EkLFzGLtkgt/PZFUm+G8hkEHmefGnA1X8ibLz/irfM2I/Mmo/Mmp/emV6/zu91nJ6ZR5+QcZvJDJqJDJqJDJqJDJ+I7k3BY9ERo1ERo1ERo1ERo1ERo2MTiZ3dXr/hfp1o9b3x22nSGZ166bqeiy5xnU9uozJl3GqN1tuRCxOumSc05VaRCxOymQcp9BnMN8IqZCJsJCR1wgOg0xgCzKqBRnVgoxqQUa1IKNakFEtyKgWZFQLMqoFGdWCjGpBRrUgo1qQUS3IqBZkVAsyqgUZ1YLM07q9+4DMw28q9S9LX6+L/3x79f1Hzi3NIfP5ambxZvb1hlsrnzQOxzf3Di72Jwu8mhz3Mv/xaP7TzkL7/78CmcAWZFQLMk+LexP3Jh2Be5OKwL1JReAEVhGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURGQURH8r1LdmUembWXyzd54o1zb2kXm4TeVheOj/NtSbuxw82CfT+bxflfYP9g8HMuV3uaPjhcqL1oyK7O7VSs3xvfeTKqWzMrM71Q7t2RWxnedexP3Jh2Be5OKwL1JReDepCJwb1IR+BOlioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMioCMiuB/FT6Z5+VVHj+ZZ0J1RHDVZMm0fzKPT29kV02KjP8n8/j0RnbVZMioT+bx6Y3sqomQWVKfzOPTG9lVEyETbW/IScioScioScioScioScioScioScioScioScioScioScioScioScioScioSci0T/LKQcZ/EjJqEjJqEjJqEjJqEjJ+k7g3dZqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjJqEjN8k/k6v0yRk1CRk1CRk1CRk1CRk/CZxbwqahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyahIyaJGUCKsMyAfuRUfuRUfuRUfuRUfszIdNTpVKm+unj97//ir3NSJ/M++mP32tj/x1X+5yTLpn30zNvayf9q3hJUiNze/GnqTL+9XfPE9qSpEKmcPFnNvd6dCIqFS9J4mUKS5vbTZWDetc7A5IkWqZwfradm1v8LH+EWB+VXJnCebEx9XMwKl6SRMpUdo5eTf3M/7rrLVC4JImT8VR+fJsfpIqXJFEylQ9Xu6WmykJ/gcIlSYxMZX9lt1Q+vH7Xf6BwSRIh01S5WduIT8VLYr3M6Ze95bWN5b0vp9ElCpXEbpmmysbazUrcKl4Se2XeXR+Wmyr7L384bixlqczC/GG5tHv1YUgqXhL7ZBbmv/2YuhyqipfELpk7N/9z6tXRzpBVTFkkM/KrqfJv0QYVU5bITH5enMs1iueF4Na4ygKZ+kFTZXtzySIVU0OWqR+Mvs7NWqdiaogyv7+On+Rm/1zcDvDSfdSQZKpNldrbGVtVTA1Bpnr831hTZfr9AC8ZQcUsU/3UVPn+8VMUD4QGXDHKmEeqtbH/kqBiKiYZ7+FhBI9UY6wYZG7dGe/hYYJUTA1Y5tY8PIzwkWqMNUCZwtLm7CAeHsZUA5LxHqnOLSZVxdQAZMzDw0E9Uo2xIpap7JhHqvlfI9GMG2ZFKBPHI9UYKyKZyoery6mYHh7GVBHIeI9Uy4dpUjHVp4z38DDGR6oxVh8yp1/MI9XlvS+Rh7KiepQ59R4exv9INcbqRebd9eHGEB8exlTdyphHqqXdtKuY6kbGPDwc8iPVGCuszJ15pGrHw8OYKozM3S9rHqnGWLnFkY4yk58Xf07Z9fAwphoZnRpVMt4j1e2zDKq0asRXxnt4aN8j1ZirXeb3hHmk+uci2yqmnsr89h4eWvtINebyTmHHe3h4koCHhzGWdwofew8PUWmr5imcjEeqPdX/AaVX1tzg1scJAAAAAElFTkSuQmCC) right -300px no-repeat rgb(245, 99, 74)">
+                                                        <div class="col topTileCol d-flex">
+                                                            <div class="leftTile">72</div>
+                                                            <div class="centerTile">Ud od 0,9</div>
+                                                            <div class="rightTile">ARKTIC z ościeżnicą aluminiową</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row bottomTileRow darkTextColor">
+                                                        <div class="col bottomTileCol lightBgColor justify-content-center">
+                                                            <p class="text-center">2179,00</p>
+                                                            <p class="text-center opisstandarduLabel">Opis standardu</p>
+                                                            <button class="btn squareBtn-sm secondaryBgColor" type="button" style="position: absolute; bottom: 0; right: 0;">
+                                                                <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-4 p-0">
+                                            <div class="helppanel darkTextColor">
+                                                <div style="border: 1px solid rgb(204, 208, 226);">
+                                                    <div class="row topTileRow">
+                                                        <div class="col topTileCol">
+                                                            <p class="m-0">Pomoc</p>
+                                                            <button class="btn info-popup-btn" style="position: absolute; top: 30px; right: 30px;">
+                                                                <svg viewBox="0 0 1 7"><path d="M0,7 L0,3 L1,3 L1,7 L0,7 ZM0,0 L1,0 L1,2 L0,2 L0,0 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row row-cols-1 bottomTileRow">
+                                                        <div class="col bottomTileCol lightBgColor">
+                                                            <p class="text-left">Ochrona przed zimnem</p>
+                                                            <button class="btn squareBtn-sm primaryBgColor" type="button" style="position: absolute; top: 0; right: 0;">
+                                                                <svg class="arrowRightIcon" viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="col bottomTileCol lightBgColor">
+                                                            <p class="text-left">Porównaj standardy cieplne</p>
+                                                            <button class="btn squareBtn-sm primaryBgColor" type="button" style="position: absolute; top: 0; right: 0;">
+                                                                <svg class="arrowRightIcon" viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="col bottomTileCol lightBgColor">
+                                                            <p class="text-left">Porównaj ościeżnice Arktic</p>
+                                                            <button class="btn squareBtn-sm primaryBgColor" type="button" style="position: absolute; top: 0; right: 0;">
+                                                                <svg class="arrowRightIcon" viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="col bottomTileCol lightBgColor">
+                                                            <p class="text-left">Porównaj ościeżnice Passive</p>
+                                                            <button class="btn squareBtn-sm primaryBgColor" type="button" style="position: absolute; top: 0; right: 0;">
+                                                                <svg class="arrowRightIcon" viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="zoominphoto">
+        <div class="modal fade" id="zoominModal" tabindex="-1" role="dialog" aria-labelledby="zoominModalCenter" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-body d-flex justify-content-center">
+                        <button class="btn squareBtn-md secondaryBgColor" type="button" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 0; right: 0;">
+                            <svg viewBox="0 0 12 12" style="height: 50px; width: 12px;"><path d="M11.7070000000001,10.95 L11,11.657 L6.04999999999995,6.70699999999999 L6,6.65700000000001 L5.95000000000005,6.70699999999999 L1,11.657 L0.29299999999989,10.95 L5.24299999999994,6 L0.29299999999989,1.05000000000001 L1,0.34299999999999 L5.95000000000005,5.29300000000001 L6,5.34299999999999 L6.04999999999995,5.29300000000001 L11,0.34299999999999 L11.7070000000001,1.05000000000001 L6.75700000000006,6 L11.7070000000001,10.95 Z "></path></svg>
+                        </button>
+                        <div class="icon d-flex justify-content-center">
+                            <img src="https://mtadmin1.drzwimartom.pl/uploads/b0adc76ca6874cbf9347b4d86d7b52f4.png" alt="">
+                            <img src="https://mtadmin1.drzwimartom.pl/uploads/885a140401ba494f8d7fcda6bb95d5de.png" alt="">
+                            <img src="https://mtadmin1.drzwimartom.pl/uploads/cbad7a41d79e4b3aab0d94ba7dcff455.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
