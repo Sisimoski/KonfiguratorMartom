@@ -233,9 +233,12 @@ h2 {
     font-size: 14px;
     padding: 0 15px;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.settingTile .bottomTileRow .bottomTileCol, .bottomTileCol p {
+.bottomTileCol p {
     display: flex;
     justify-content: center;
     align-items: center;
