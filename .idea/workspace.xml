@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="standardzamka.html page added">
-      <change afterPath="$PROJECT_DIR$/typoscieznicy.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="typoscieznicy.html page added">
+      <change afterPath="$PROJECT_DIR$/klamkiipochwyty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardzamka.html" beforeDir="false" afterPath="$PROJECT_DIR$/standardzamka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typoscieznicy.html" beforeDir="false" afterPath="$PROJECT_DIR$/typoscieznicy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1602483277743" duration="415000" />
       <workItem from="1602484476244" duration="18929000" />
       <workItem from="1602828996034" duration="21549000" />
-      <workItem from="1603088072678" duration="11415000" />
+      <workItem from="1603088072678" duration="12307000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603098783738</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="typoscieznicy.html page added">
+      <created>1603101901281</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603101901281</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +317,8 @@
     <MESSAGE value="fixed linking" />
     <MESSAGE value="some css fixes" />
     <MESSAGE value="standardzamka.html page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="standardzamka.html page added" />
+    <MESSAGE value="typoscieznicy.html page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="typoscieznicy.html page added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
