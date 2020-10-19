@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="akcesoria.html page added">
-      <change afterPath="$PROJECT_DIR$/wizualizacja.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="wizualizacja.html page added">
+      <change afterPath="$PROJECT_DIR$/wymiary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
@@ -84,7 +84,7 @@
       <workItem from="1602483277743" duration="415000" />
       <workItem from="1602484476244" duration="18929000" />
       <workItem from="1602828996034" duration="21549000" />
-      <workItem from="1603088072678" duration="17964000" />
+      <workItem from="1603088072678" duration="19303000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -303,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603106795584</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="wizualizacja.html page added">
+      <created>1603108588112</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603108588112</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +329,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="model item added" />
     <MESSAGE value="navbar fixes" />
     <MESSAGE value="added transitions" />
     <MESSAGE value="konfigurator index.html completed" />
@@ -347,7 +353,8 @@
     <MESSAGE value="wzorklamki.html page added" />
     <MESSAGE value="wkladka.html page added" />
     <MESSAGE value="akcesoria.html page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="akcesoria.html page added" />
+    <MESSAGE value="wizualizacja.html page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="wizualizacja.html page added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
@@ -372,6 +379,10 @@
     <state x="160" y="29" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1601647626934" />
     <state x="160" y="29" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1601643247990" />
     <state x="469" y="156" key="SettingsEditor/1920.23.1440.877/0.23.1920.989@0.23.1920.989" timestamp="1601500044198" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1603109693328">
+      <screen x="394" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1280.800/394.-1080.1920.1080@394.-1080.1920.1080" timestamp="1603109693328" />
     <state x="954" y="-825" key="Vcs.Push.Dialog.v2" timestamp="1603102881081">
       <screen x="394" y="-1080" width="1920" height="1080" />
     </state>

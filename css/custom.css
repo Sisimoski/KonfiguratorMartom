@@ -221,6 +221,11 @@ h2 {
     height: 100%; width: 100%;
 }
 
+.settingTile .topTileRow .topTileCol svg.icon{
+    fill: rgb(54, 74, 153);
+    height: 76px; width: 88px;
+}
+
 .settingTile .bottomTileRow {
     display: flex;
     flex-direction: column;

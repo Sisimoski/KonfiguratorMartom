@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src = "js/custom.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--  Nunito Sans Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icons from Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Icons from Boxicons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Konfigurator Martom</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light primaryBgColor fixed-top py-0 px-0 justify-content-start">
+    <button class="navbar-toggler btn squareBtn-nav secondaryBgColor order-0" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle Navbar">
+        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+    </button>
+    <a class="nav-link squareBtn-nav primaryBgColor order-1 order-lg-3" href="#">
+        <svg viewBox="0 0 12 14"><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>
+    </a>
+    <!-- Desktop Brand Logo   -->
+    <a class="navbar-brand primaryBgColor align-items-center pl-4 py-0 order-3 order-lg-0 d-none d-lg-flex" href="index.html">
+        <img src="https://drzwimartom.pl/wp-content/themes/martom/img/martom_logo.svg" width="131px">
+    </a>
+    <!-- Mobile Brand Logo   -->
+    <div class="d-flex position-absolute justify-content-center" style="height: 70px; width: 100%; z-index: -2">
+        <a class="navbar-brand primaryBgColor m-0 py-0 order-3 d-lg-none" href="#">
+            <svg viewBox="0 0 19 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 100%; width: 19px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: pointer;"><path d="M 14.309,4.801 H 4.771 L 9.54,9.598 V 23.991 L 4.771,19.193 0.002,14.396 V 0.004 h 19.076 v 14.392 l -4.769,4.797 z"></path></svg>
+        </a>
+    </div>
+    <span class="border-left border-white order-2 order-lg-2 h-100"></span>
+    <a class="nav-link squareBtn-nav secondaryBgColor text-center d-none d-lg-block order-lg-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 12 14" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 12px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M11,14 L11,8 L1,8 L1,14 L0,14 L0,8 L0,7 L1,7 L11,7 L12,7 L12,8 L12,14 L11,14 ZM6,6 C4.346,6 3,4.654 3,3 C3,1.346 4.346,0 6,0 C7.654,0 9,1.346 9,3 C9,4.654 7.654,6 6,6 ZM6,1 C4.89699999999993,1 4,1.897 4,3 C4,4.103 4.89699999999993,5 6,5 C7.10300000000007,5 8,4.103 8,3 C8,1.897 7.10300000000007,1 6,1 Z "></path></svg>
+    </a>
+    <div class="dropdown-menu dropdown-menu-lg-right dropdown-menu-martom order-lg-4" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Zaloguj</a>
+    </div>
+
+    <div class="collapse navbar-collapse order-4 order-lg-1" id="navbarToggle">
+        <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item secondaryBgColor d-flex align-items-center d-lg-none">
+                <a class="nav-link" href="#">Zaloguj</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">01</div>
+                <a class="nav-link nav-link-setting" href="#">Ustawienia</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">02</div>
+                <a class="nav-link nav-link-setting" href="#">Kolor</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">03</div>
+                <a class="nav-link nav-link-setting" href="#">Standard</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">04</div>
+                <a class="nav-link nav-link-setting" href="#">Akcesoria</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">05</div>
+                <a class="nav-link nav-link-setting" href="#">Wizualizacja</a>
+            </li>
+            <li class="nav-item active primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">06</div>
+                <a class="nav-link nav-link-setting" href="#">Wymiary</a>
+            </li>
+            <li class="nav-item primaryBgColor">
+                <div class="borderItem"></div>
+                <div class="number-item">07</div>
+                <a class="nav-link nav-link-setting" href="#">Podsumowanie</a>
+            </li>
+
+            <!--            <span class="border-left border-white order-2 order-md-1"></span>-->
+            <!--            <li class="nav-item px-0 order-1 order-md-2">-->
+            <!--                <a class="nav-link squareBtn-nav primaryBgColor text-center" href="#">-->
+            <!--                    <svg viewBox="0 0 12 14"><path d="M11,14 L1,14 L0,14 L0,13 L0,0.999 L1,0.999 L1,13 L11,13 L11,0.999 L12,0.999 L12,13 L12,14 L11,14 ZM2,8.999 L10,8.999 L10,9.999 L2,9.999 L2,8.999 ZM2,6.999 L10,6.999 L10,8 L2,8 L2,6.999 ZM2,5 L10,5 L10,6 L2,6 L2,5 ZM3,0.999 L9,0.999 L9,1.999 L3,1.999 L3,0.999 Z "></path></svg>-->
+            <!--                </a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item px-0 dropdown order-0 order-md-3">-->
+            <!--                <a class="nav-link squareBtn-nav secondaryBgColor text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+            <!--                    <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(255, 255, 255); fill: currentcolor; height: 70px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>-->
+            <!--                </a>-->
+            <!--                <div class="dropdown-menu dropdown-menu-lg-right dropdown-menu-martom" aria-labelledby="navbarDropdown">-->
+            <!--                    <a class="dropdown-item" href="#">Zaloguj</a>-->
+            <!--                </div>-->
+            <!--            </li>-->
+        </ul>
+    </div>
+</nav>
+
+<main role="main">
+    <section id="ustawienia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="row justify-content-center" style="padding-top: 50px">
+                        <div class="col-12 col-md-10 p-0">
+                            <div class="row">
+                                <span class="">
+                            <a href="wizualizacja.html" class="btn squareBtn-md primaryBgColor" type="button" style="position: absolute; left: -51px;" >
+                                <svg viewBox="0 0 7 12"><path d="M6.66,1l-5,5,5,4.95L6,11.66,1,6.71.29,6,1,5.29,6,.34Z"></path></svg>
+                            </a>
+                        </span>
+                                <!-- Okienko podsumowania przedmiotu -->
+                                <div class="col-12 col-md-4 summaryPreview">
+                                    <div class="row order-7">
+                                        <div class="col">
+                                            <button class="btn squareBtn-md secondaryBgColor" type="button" style="position: absolute; top: 0; right: 0;" data-toggle="modal" data-target="#zoominModal">
+                                                <svg class="plusIcon" viewBox="0 0 11 12"><path d="M6,6.99900000000002 L6,11.999 L5,11.999 L5,6.99900000000002 L0,6.99900000000002 L0,5.99900000000002 L5,5.99900000000002 L5,0.99900000000002 L6,0.99900000000002 L6,5.99900000000002 L11,5.99900000000002 L11,6.99900000000002 L6,6.99900000000002 Z "></path></svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row topPreview border border-bottom-0 order-6 order-lg-5">
+                                        <div class="col d-flex justify-content-center">
+                                            <div class="icon d-flex justify-content-center" style="margin-bottom: 6px">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/b0adc76ca6874cbf9347b4d86d7b52f4.png" alt="">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/885a140401ba494f8d7fcda6bb95d5de.png" alt="">
+                                                <img src="https://mtadmin1.drzwimartom.pl/uploads/cbad7a41d79e4b3aab0d94ba7dcff455.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row bottomPreview border order-5 order-lg-6">
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button class="squareBtn-sm primaryBgColor" type="button" data-toggle="collapse" data-target="#summarywindow" aria-expanded="true" style="position: absolute; top: -1px; right: -1px;">
+                                                        <svg class="arrowUpIcon" viewBox="0 0 12 7"><path d="M0.34300000000007,6 L5.29299999999989,1.05000000000001 L6,0.34300000000002 L6.70700000000011,1.05000000000001 L11.6569999999999,6 L10.95,6.70699999999999 L6,1.75700000000001 L1.04999999999995,6.70699999999999 L0.34300000000007,6 Z "></path></svg>
+                                                    </button>
+                                                    <p class="title">G 00</p>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="summarywindow">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="row md-DetailRow lightBgColor">
+                                                            <p class="text-left text-uppercase textMuted">Razem</p>
+                                                            <p class="text-right text-uppercase">1199,00</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow">
+                                                            <p class="text-left textMuted">Standard</p>
+                                                            <p class="text-right textMuted">PLN</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow lightBgColor">
+                                                            <p class="text-left text-uppercase">Optimal</p>
+                                                            <p class="text-right text-uppercase">1059,00</p>
+                                                        </div>
+                                                        <div class="row sm-DetailRow">
+                                                            <p class="text-left textMuted">Akcesoria</p>
+
+                                                        </div>
+                                                        <div class="row sm-DetailRow lightBgColor">
+                                                            <p class="text-left">Klamka Riva inox</p>
+                                                            <p class="text-right">140,00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Koniec okienka podsumowania przedmiotu -->
+                                <div class="col-12 col-md-8 settings">
+                                    <div class="row">
+                                        <div class="col" style="padding: 0 15px">
+                                            <div class="d-flex align-items-center border-bottom">
+                                                <h3 class="flex-grow-1">Wymiary i docięcie</h3>
+                                                <a href="podsumowanie.html" class="btn squareBtn-md successBgColor" type="button">
+                                                    <svg viewBox="0 0 7 12"><path d="M1,0.34299999999999 L5.95000000000005,5.29300000000001 L6.65700000000004,6 L5.95000000000005,6.70699999999999 L1,11.657 L0.29300000000001,10.95 L5.24300000000005,6 L0.29300000000001,1.05000000000001 L1,0.34299999999999 Z "></path></svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 15px">
+                                        <div class="col-12 col-lg p-0">
+                                            <div class="row row-cols-2 row-cols-lg-2">
+                                                <div class="col settingTile">
+                                                    <div class="row topTileRow lightBgColor" style="padding: 30px 30px 36px 30px">
+                                                        <div class="col topTileCol d-flex justify-content-center">
+                                                            <button class="btn squareBtn-md successBgColor" type="button" style="position: absolute; top: -30px; right: -30px;">
+                                                                <svg class="tickIcon" viewBox="0 0 13 12"><path d="M5.505,11.755 C5.33299999999997,11.755 5.16999999999996,11.667 5.07799999999997,11.523 L0.11099999999999,5.565 L0.87800000000004,4.92400000000001 L5.46500000000003,10.425 L12.096,0.958 L12.915,1.53200000000001 L5.96100000000001,11.46 C5.96000000000004,11.462 5.95899999999995,11.464 5.95799999999997,11.466 C5.87599999999998,11.642 5.69899999999996,11.755 5.505,11.755 Z "></path></svg>
+                                                            </button>
+                                                            <svg class="icon" viewBox="0 0 88 76"><path d="M86,76 L86,75 L88,75 L88,76 L86,76 ZM78,75 L82,75 L82,76 L78,76 L78,75 ZM70,76 L68,76 L67,76 L66,76 L62,76 L58,76 L57,76 L54,76 L54,75 L57,75 L58,75 L62,75 L62,6.79300000000001 L36,1.12 L36,5 L36,6 L36,75 L38,75 L40,75 L42,75 L42,76 L40,76 L38,76 L34,76 L30,76 L26,76 L22,76 L18,76 L17,76 L14,76 L14,75 L17,75 L18,75 L20,75 L20,1 L20,0 L21,0 L35,0 L36,0 L67,0 L68,0 L68,1 L68,75 L70,75 L71,75 L74,75 L74,76 L71,76 L70,76 ZM21,75 L22,75 L25,75 L25,6 L25,5.70699999999999 L21,1.70699999999999 L21,75 ZM35,1 L21.707,1 L25.707,5 L35,5 L35,1 ZM35,6 L26,6 L26,75 L30,75 L34,75 L35,75 L35,6 ZM40.136,1 L62.3869999999999,5.85500000000002 L66.433,1 L40.136,1 ZM67,1.881 L63,6.68099999999998 L63,75 L66,75 L67,75 L67,1.881 ZM6,75 L10,75 L10,76 L6,76 L6,75 ZM0,75 L2,75 L2,76 L0,76 L0,75 ZM38,48 C38,46.346 39.346,45 41,45 C42.654,45 44,46.346 44,48 C44,49.654 42.654,51 41,51 C39.346,51 38,49.654 38,48 ZM43,48 C43,46.897 42.102,46 41,46 C39.897,46 39,46.897 39,48 C39,49.102 39.897,50 41,50 C42.102,50 43,49.102 43,48 ZM50,76 L46,76 L46,75 L50,75 L50,76 Z "></path></svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row bottomTileRow">
+                                                        <div class="col bottomTileCol darkTextColor">
+                                                            <p class="text-center">Standardowy wymiar</p>
+                                                        </div>
+                                                        <div class="col bottomTileCol lightBgColor darkTextColor justify-content-between">
+                                                            <p class="text-left">Dopłata</p>
+                                                            <p class="text-right">0,00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col settingTile">
+                                                    <div class="row topTileRow lightBgColor" style="padding: 30px 30px 36px 30px">
+                                                        <div class="col topTileCol d-flex justify-content-center">
+                                                            <button class="btn squareBtn-md successBgColor" type="button" style="position: absolute; top: -30px; right: -30px;">
+                                                                <svg class="tickIcon" viewBox="0 0 13 12"><path d="M5.505,11.755 C5.33299999999997,11.755 5.16999999999996,11.667 5.07799999999997,11.523 L0.11099999999999,5.565 L0.87800000000004,4.92400000000001 L5.46500000000003,10.425 L12.096,0.958 L12.915,1.53200000000001 L5.96100000000001,11.46 C5.96000000000004,11.462 5.95899999999995,11.464 5.95799999999997,11.466 C5.87599999999998,11.642 5.69899999999996,11.755 5.505,11.755 Z "></path></svg>
+                                                            </button>
+                                                            <svg class="icon" viewBox="0 0 88 76"><path d="M86,76 L86,75 L88,75 L88,76 L86,76 ZM77,68 L77,67.795 L74.859,65.902 L72.021,67.673 L69.519,65.458 L66.686,67.228 L64.1849999999999,65.014 L61.355,66.784 L58.862,64.569 L56.03,66.341 L54,64.542 L54,65 L53,65 L53,58 L77,58 L78,58 L88,58 L88,69 L77,69 L77,68 ZM77,59 L54,59 L54,63.205 L56.134,65.097 L58.966,63.325 L61.4589999999999,65.54 L64.289,63.769 L66.79,65.984 L69.623,64.2140000000001 L72.125,66.429 L74.963,64.66 L77,66.46 L77,59 ZM78,68 L87,68 L87,59 L78,59 L78,68 ZM80,61 L85,61 L85,66 L80,66 L80,61 ZM81,65 L84,65 L84,62 L81,62 L81,65 ZM67,1.88099999999997 L63,6.68100000000004 L63,52 L62,52 L62,6.79300000000001 L36,1.12099999999998 L36,5 L36,6 L36,75 L38,75 L40,75 L42,75 L42,76 L40,76 L38,76 L34,76 L30,76 L26,76 L22,76 L18,76 L17,76 L14,76 L14,75 L17,75 L18,75 L20,75 L20,1 L20,0 L21,0 L35,0 L36,0 L67,0 L68,0 L68,1 L68,52 L67,52 L67,1.88099999999997 ZM21,75 L22,75 L25,75 L25,6 L25,5.70699999999999 L21,1.70699999999999 L21,75 ZM35,1 L21.707,1 L25.707,5 L35,5 L35,1 ZM35,6 L26,6 L26,75 L30,75 L34,75 L35,75 L35,6 ZM40.136,1 L62.3869999999999,5.85500000000002 L66.433,1 L40.136,1 ZM6,75 L10,75 L10,76 L6,76 L6,75 ZM0,75 L2,75 L2,76 L0,76 L0,75 ZM38,48 C38,46.346 39.346,45 41,45 C42.654,45 44,46.346 44,48 C44,49.654 42.654,51 41,51 C39.346,51 38,49.654 38,48 ZM43,48 C43,46.897 42.102,46 41,46 C39.897,46 39,46.897 39,48 C39,49.102 39.897,50 41,50 C42.102,50 43,49.102 43,48 ZM50,76 L46,76 L46,75 L50,75 L50,76 ZM58,76 L54,76 L54,75 L58,75 L58,76 ZM66,76 L62,76 L62,75 L66,75 L66,76 ZM74,76 L70,76 L70,75 L74,75 L74,76 ZM82,76 L78,76 L78,75 L82,75 L82,76 Z "></path></svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row bottomTileRow">
+                                                        <div class="col bottomTileCol darkTextColor">
+                                                            <p class="text-center">Obcięcie od dołu</p>
+                                                        </div>
+                                                        <div class="col bottomTileCol lightBgColor darkTextColor justify-content-between">
+                                                            <p class="text-left">Dopłata</p>
+                                                            <p class="text-right">0,00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="zoominphoto">
+        <div class="modal fade" id="bg2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-body d-flex justify-content-center">
+                        <button class="btn squareBtn-md secondaryBgColor" type="button" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 0; right: 0;">
+                            <svg viewBox="0 0 12 12" style="height: 50px; width: 12px;"><path d="M11.7070000000001,10.95 L11,11.657 L6.04999999999995,6.70699999999999 L6,6.65700000000001 L5.95000000000005,6.70699999999999 L1,11.657 L0.29299999999989,10.95 L5.24299999999994,6 L0.29299999999989,1.05000000000001 L1,0.34299999999999 L5.95000000000005,5.29300000000001 L6,5.34299999999999 L6.04999999999995,5.29300000000001 L11,0.34299999999999 L11.7070000000001,1.05000000000001 L6.75700000000006,6 L11.7070000000001,10.95 Z "></path></svg>
+                        </button>
+                        <div class="icon d-flex justify-content-center">
+                            <img src="https://mtadmin1.drzwimartom.pl/uploads/eb164b60dc674ed39dd11e503206a480.png" alt="5ae9c24982b300526fd85415">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
