@@ -217,6 +217,20 @@ h2 {
 
 }
 
+.settingTile .topTileRow .topTileCol {
+
+}
+
+.settingTile .topTileRow .topTileCol .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    max-height: 213px; max-width: 155px;
+    height: 213px; width: 155px;
+}
+
 .settingTile .topTileCol img {
     height: 100%; width: 100%;
 }

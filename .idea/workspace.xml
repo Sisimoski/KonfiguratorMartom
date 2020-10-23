@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="wizualizacja.html page added">
-      <change afterPath="$PROJECT_DIR$/wymiary.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="wymiary.html page added">
+      <change afterPath="$PROJECT_DIR$/cena.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podsumowanie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
@@ -84,7 +85,8 @@
       <workItem from="1602483277743" duration="415000" />
       <workItem from="1602484476244" duration="18929000" />
       <workItem from="1602828996034" duration="21549000" />
-      <workItem from="1603088072678" duration="19303000" />
+      <workItem from="1603088072678" duration="22639000" />
+      <workItem from="1603434467974" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -310,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603108588112</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="wymiary.html page added">
+      <created>1603109961127</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603109961129</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +338,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="navbar fixes" />
     <MESSAGE value="added transitions" />
     <MESSAGE value="konfigurator index.html completed" />
     <MESSAGE value="added more model items" />
@@ -354,7 +362,8 @@
     <MESSAGE value="wkladka.html page added" />
     <MESSAGE value="akcesoria.html page added" />
     <MESSAGE value="wizualizacja.html page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="wizualizacja.html page added" />
+    <MESSAGE value="wymiary.html page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="wymiary.html page added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
