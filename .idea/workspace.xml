@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="dolaczdokompletu.html page added">
-      <change beforePath="$PROJECT_DIR$/dolaczdokompletu.html" beforeDir="false" afterPath="$PROJECT_DIR$/dolaczdokompletu.html" afterDir="false" />
+    <list default="true" id="d7e6b9b8-02af-4ef6-be5c-36866e26eb38" name="Default Changelist" comment="dolaczdokompletu.html typo">
+      <change afterPath="$PROJECT_DIR$/podsumowanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <workItem from="1602484476244" duration="18929000" />
       <workItem from="1602828996034" duration="21549000" />
       <workItem from="1603088072678" duration="22639000" />
-      <workItem from="1603434467974" duration="1754000" />
+      <workItem from="1603434467974" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="deleted .gitignore">
       <created>1601498813867</created>
@@ -323,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603436326707</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="dolaczdokompletu.html typo">
+      <created>1603436363437</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603436363437</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +351,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="konfigurator index.html completed" />
     <MESSAGE value="added more model items" />
     <MESSAGE value="information modal added" />
     <MESSAGE value="dropdown icons updated to reflect if it is collapsed or expanded" />
@@ -367,7 +375,8 @@
     <MESSAGE value="wizualizacja.html page added" />
     <MESSAGE value="wymiary.html page added" />
     <MESSAGE value="dolaczdokompletu.html page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dolaczdokompletu.html page added" />
+    <MESSAGE value="dolaczdokompletu.html typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="dolaczdokompletu.html typo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="245" key="#Menus_and_Toolbars" timestamp="1601499307931">
